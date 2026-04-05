@@ -1,0 +1,153 @@
+name: Update Repository
+
+on:
+  push:
+    branches: [main]
+    paths: ['pool/**']
+  workflow_dispatch:
+    inputs:
+      deb_urls:
+        description: "Space-separated or newline-separated URLs to .deb files"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update-repo:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - run: |
+        sudo apt-get update
+        sudo apt-get install -y apt-utils gpg
+
+    - if: github.event_name == 'workflow_dispatch' && inputs.deb_urls != ''
+      run: |
+        mkdir -p debs
+        for url in ${{ inputs.deb_urls }}; do
+          curl -fSL "$url" -o debs/$(basename "$url")
+        done
+        for z in *.zip; do [ -f "$z" ] && unzip -o "$z" -d debs/; done
+        for t in *.tar *.tar.gz *.tar.xz; do [ -f "$t" ] && tar -xf "$t" -C debs/; done
+
+    - run: |
+        set -e
+        mkdir -p pool/main dists/stable/main/binary-aarch64
+
+        PKGS="dists/stable/main/binary-aarch64/Packages"
+        IDX="dists/stable/main/binary-aarch64/.index"
+        mkdir -p "$IDX"
+
+        deb_files=()
+        if ls debs/*.deb >/dev/null 2>&1; then
+          deb_files+=($(ls debs/*.deb))
+        fi
+
+        for deb in "${deb_files[@]}"; do
+          pkg=$(dpkg-deb -f "$deb" Package | tr '[:upper:]' '[:lower:]')
+          new_ver=$(dpkg-deb -f "$deb" Version)
+          letter="${pkg:0:1}"
+          dest="pool/main/$letter/$pkg"
+          fname=$(basename "$deb")
+
+          if [ -d "$dest" ] && ls "$dest"/*.deb >/dev/null 2>&1; then
+            existing=$(ls "$dest"/*.deb | head -1)
+            old_ver=$(dpkg-deb -f "$existing" Version)
+            if dpkg --compare-versions "$new_ver" gt "$old_ver" 2>/dev/null; then
+              echo "UPDATE $pkg $old_ver -> $new_ver"
+              rm -f "$dest"/*.deb
+              mkdir -p "$dest"
+              mv -f "$deb" "$dest/$fname"
+              rm -f "$IDX/$pkg"
+            else
+              echo "SKIP $pkg $new_ver"
+              rm -f "$deb"; continue
+            fi
+          else
+            echo "ADD $pkg $new_ver"
+            mkdir -p "$dest"
+            mv -f "$deb" "$dest/$fname"
+          fi
+
+          { dpkg-deb -f "$dest/$fname"
+            echo "Filename: $dest/$fname"
+            echo "Size: $(stat -c%s "$dest/$fname")"
+            echo "MD5sum: $(md5sum "$dest/$fname" | awk '{print $1}')"
+            echo "SHA256: $(sha256sum "$dest/$fname" | awk '{print $1}')"
+            echo ""
+          } > "$IDX/$pkg"
+        done
+
+        # If no index files, rebuild entire index from pool
+        if [ "$(ls "$IDX" 2>/dev/null | wc -l)" -eq 0 ]; then
+          for pkg_dir in pool/main/?/*/; do
+            [ -d "$pkg_dir" ] || continue
+            deb=$(ls "$pkg_dir"*.deb 2>/dev/null | head -1)
+            [ -f "$deb" ] || continue
+            p=$(dpkg-deb -f "$deb" Package)
+            { dpkg-deb -f "$deb"
+              echo "Filename: $deb"
+              echo "Size: $(stat -c%s "$deb")"
+              echo "MD5sum: $(md5sum "$deb" | awk '{print $1}')"
+              echo "SHA256: $(sha256sum "$deb" | awk '{print $1}')"
+              echo ""
+            } > "$IDX/$p"
+          done
+        fi
+
+        # Rebuild Packages sorted
+        > "$PKGS"
+        for i in $(ls "$IDX" 2>/dev/null | sort); do
+          cat "$IDX/$i" >> "$PKGS"
+        done
+
+        gzip -9c "$PKGS" > "$PKGS.gz"
+        bzip2 -9c "$PKGS" > "$PKGS.bz2"
+
+    - run: |
+        set -e
+        REL="dists/stable/Release"
+        { echo "Origin: Neonide Repository"
+          echo "Label: Neonide"
+          echo "Suite: stable"
+          echo "Codename: stable"
+          echo "Architectures: aarch64"
+          echo "Components: main"
+          echo "Date: $(date -u '+%a, %d %b %Y %H:%M:%S %Z')"
+          echo "MD5Sum:"
+          for f in dists/stable/main/binary-aarch64/Packages*; do
+            bn=$(basename "$f"); [ -f "$f" ] || continue
+            echo "  $(md5sum "$f" | awk '{print $1}') $(stat -c%s "$f") $bn"
+          done
+          echo "SHA256:"
+          for f in dists/stable/main/binary-aarch64/Packages*; do
+            bn=$(basename "$f"); [ -f "$f" ] || continue
+            echo "  $(sha256sum "$f" | awk '{print $1}') $(stat -c%s "$f") $bn"
+          done
+        } > "$REL"
+
+    - if: secrets.GPG_PRIVATE_KEY != ''
+      env:
+        GPG_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+        GPG_PASS: ${{ secrets.GPG_PASSPHRASE }}
+      run: |
+        echo "$GPG_KEY" | gpg --batch --import
+        OPTS="--batch --yes --pinentry-mode loopback"
+        [ -n "$GPG_PASS" ] && OPTS="$OPTS --passphrase $GPG_PASS"
+        gpg $OPTS --clearsign -o dists/stable/InRelease dists/stable/Release
+        gpg $OPTS -abs -o dists/stable/Release.gpg dists/stable/Release
+
+    - run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add .
+        git diff --cached --quiet && echo "No changes" && exit 0
+        git commit -m "Update repository [skip ci]"
+        git push origin main
