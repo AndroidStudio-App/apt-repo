@@ -36,6 +36,7 @@ jobs:
         done
         for z in *.zip; do [ -f "$z" ] && unzip -o "$z" -d debs/ && rm -f "$z" || true; done
         for t in *.tar *.tar.gz *.tar.xz; do [ -f "$t" ] && tar -xf "$t" -C debs/ && rm -f "$t" || true; done
+        for t in debs/*.tar debs/*.tar.gz debs/*.tar.xz; do [ -f "$t" ] && tar -xf "$t" -C debs/ && rm -f "$t" || true; done
 
     - run: |
         set -e
