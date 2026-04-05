@@ -127,13 +127,13 @@ jobs:
           echo "Date: $(date -u '+%a, %d %b %Y %H:%M:%S %Z')"
           echo "MD5Sum:"
           for f in dists/stable/main/binary-aarch64/Packages*; do
-            bn=$(basename "$f"); [ -f "$f" ] || continue
-            echo "  $(md5sum "$f" | awk '{print $1}') $(stat -c%s "$f") $bn"
+            [ -f "$f" ] || continue
+            echo "  $(md5sum "$f" | awk '{print $1}') $(stat -c%s "$f") main/binary-aarch64/$(basename "$f")"
           done
           echo "SHA256:"
           for f in dists/stable/main/binary-aarch64/Packages*; do
-            bn=$(basename "$f"); [ -f "$f" ] || continue
-            echo "  $(sha256sum "$f" | awk '{print $1}') $(stat -c%s "$f") $bn"
+            [ -f "$f" ] || continue
+            echo "  $(sha256sum "$f" | awk '{print $1}') $(stat -c%s "$f") main/binary-aarch64/$(basename "$f")"
           done
         } > "$REL"
 
@@ -148,6 +148,8 @@ jobs:
         [ -n "$GPG_PASS" ] && OPTS="$OPTS --passphrase $GPG_PASS"
         gpg $OPTS --clearsign -o dists/stable/InRelease dists/stable/Release
         gpg $OPTS -abs -o dists/stable/Release.gpg dists/stable/Release
+        # Export public key for clients
+        gpg --armor --export > public.key
 
     - run: |
         git config user.name "github-actions[bot]"
