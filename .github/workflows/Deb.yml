@@ -2,7 +2,7 @@ name: Update Repository
 
 on:
   push:
-    branches: [main]
+    branches: "*"
     paths: ['pool/**']
   workflow_dispatch:
     inputs:
@@ -133,7 +133,7 @@ jobs:
           done
         } > "$REL"
 
-    - if: secrets.GPG_PRIVATE_KEY != ''
+    - name: Sign Release
       env:
         GPG_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
         GPG_PASS: ${{ secrets.GPG_PASSPHRASE }}
