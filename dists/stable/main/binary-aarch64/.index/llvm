@@ -1,0 +1,16 @@
+Package: llvm
+Architecture: aarch64
+Installed-Size: 70576
+Maintainer: @finagolfin
+Version: 21.1.8-2
+Homepage: https://clang.llvm.org/
+Depends: libllvm (= 21.1.8-2)
+Breaks: binutils (<< 2.46.0-3), binutils-is-llvm, libllvm (<< 11.0.0-1)
+Conflicts: binutils (<< 2.46.0-3), binutils-is-llvm
+Replaces: binutils-is-llvm, libllvm (<< 11.0.0-1)
+Description: LLVM modular compiler and toolchain executables
+Filename: pool/main/l/llvm/llvm_21.1.8-2_aarch64.deb
+Size: 14781244
+MD5sum: 08dade36036198d6946d2ce58c2b611e
+SHA256: 1f26aa3a38f7fca8b49f38703575245680915ffd6804fd82a54e89f98cc39aac
+

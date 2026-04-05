@@ -1,0 +1,15 @@
+Package: libgmp
+Architecture: aarch64
+Installed-Size: 1240
+Maintainer: @termux
+Version: 6.3.0-2
+Homepage: https://gmplib.org/
+Breaks: libgmp-dev
+Depends: libc++
+Replaces: libgmp-dev
+Description: Library for arbitrary precision arithmetic
+Filename: pool/main/l/libgmp/libgmp_6.3.0-2_aarch64.deb
+Size: 328120
+MD5sum: 0795a3d92acc6299de33aca85cdd5070
+SHA256: 67995aa8b51e3c5c99e26eb0f434d7cd788756477318c35ce2ed0c1429f0bdca
+

@@ -1,0 +1,13 @@
+Package: iconv
+Architecture: aarch64
+Installed-Size: 56
+Maintainer: @termux
+Version: 1.18-1
+Homepage: https://www.gnu.org/software/libiconv/
+Depends: libiconv (= 1.18-1)
+Description: Utility converting between different character encodings
+Filename: pool/main/i/iconv/iconv_1.18-1_aarch64.deb
+Size: 10136
+MD5sum: 4352fda9831b526caf622493d1c7813f
+SHA256: ddbeabd1f53575b0b77e9414b79d6d47b470f86a038e20c14056e8f343d050b7
+

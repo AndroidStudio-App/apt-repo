@@ -1,0 +1,13 @@
+Package: pinentry
+Architecture: aarch64
+Installed-Size: 208
+Maintainer: @termux
+Version: 1.3.2-2
+Homepage: https://www.gnupg.org/related_software/pinentry/index.html
+Depends: libandroid-support, libassuan, libgpg-error, libiconv, ncurses
+Description: Dialog allowing secure password entry
+Filename: pool/main/p/pinentry/pinentry_1.3.2-2_aarch64.deb
+Size: 47272
+MD5sum: 775ab05e0cb7797974ad961799e03986
+SHA256: 252872f2dc2b8d2da3f1cb4fb61a3942b41142c57a610df56625d4d77e029679
+

@@ -1,0 +1,13 @@
+Package: dpkg-scanpackages
+Architecture: all
+Installed-Size: 56
+Maintainer: @termux
+Version: 1.22.6-5
+Homepage: https://packages.debian.org/dpkg
+Depends: dpkg-perl, dpkg (= 1.22.6-5)
+Description: Creates Packages index files
+Filename: pool/main/d/dpkg-scanpackages/dpkg-scanpackages_1.22.6-5_all.deb
+Size: 6504
+MD5sum: bd16e2d01df25e85ff2db5100aaad1cd
+SHA256: f429d1f61fad50cb21c7cb485fb46f573b74e597d8db31d3bbc4c8461ae3ef16
+

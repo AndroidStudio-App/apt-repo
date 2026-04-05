@@ -1,0 +1,14 @@
+Package: libandroid-glob
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: @termux
+Version: 0.6-3
+Homepage: https://man7.org/linux/man-pages/man3/glob.3.html
+Breaks: libandroid-glob-dev
+Replaces: libandroid-glob-dev
+Description: Shared library for the glob(3) system function
+Filename: pool/main/l/libandroid-glob/libandroid-glob_0.6-3_aarch64.deb
+Size: 7012
+MD5sum: bbcdb02a543de31e162ba16141bc0f7c
+SHA256: 9963dd8d232fd6f00aef449271053732c3a4085f30f57929cbd9cc0aed15fe2c
+

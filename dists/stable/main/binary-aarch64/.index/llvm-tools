@@ -1,0 +1,15 @@
+Package: llvm-tools
+Architecture: aarch64
+Installed-Size: 13004
+Maintainer: @finagolfin
+Version: 21.1.8-2
+Homepage: https://clang.llvm.org/
+Depends: libc++, ncurses, zlib, zstd
+Breaks: libllvm (<< 16.0.0)
+Replaces: libllvm (<< 16.0.0)
+Description: LLVM Development Tools
+Filename: pool/main/l/llvm-tools/llvm-tools_21.1.8-2_aarch64.deb
+Size: 2375884
+MD5sum: b46a75c454b08504477106284114d13a
+SHA256: 0e5ec2a3f1eaacbca7faedfce6bfaf02e154e37516226393b3ed8dc526970ea4
+

@@ -1,0 +1,15 @@
+Package: libicu
+Architecture: aarch64
+Installed-Size: 43632
+Maintainer: @termux
+Version: 78.3
+Homepage: http://site.icu-project.org/home
+Breaks: libicu-dev
+Depends: libc++
+Replaces: libicu-dev
+Description: International Components for Unicode library
+Filename: pool/main/l/libicu/libicu_78.3_aarch64.deb
+Size: 10210000
+MD5sum: fad43b1db938672b270cc9537279ed21
+SHA256: a812810b363a2f0f47db4d439bef099c6627d38f9d909b39c6419d5859749f9a
+

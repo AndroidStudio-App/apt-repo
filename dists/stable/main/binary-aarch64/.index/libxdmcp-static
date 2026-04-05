@@ -1,0 +1,13 @@
+Package: libxdmcp-static
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: @termux
+Version: 1.1.5-2
+Homepage: https://xorg.freedesktop.org/
+Depends: libxdmcp (= 1.1.5-2)
+Description: Static libraries for libxdmcp
+Filename: pool/main/l/libxdmcp-static/libxdmcp-static_1.1.5-2_aarch64.deb
+Size: 7916
+MD5sum: 9e01c4610427b4f714a0543c18712ee4
+SHA256: 48a4666622a8e7293da139aaf8270ed0298a13adc9357f50881f7f35db24211b
+

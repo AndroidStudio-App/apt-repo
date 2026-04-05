@@ -1,0 +1,14 @@
+Package: libxcb
+Architecture: aarch64
+Installed-Size: 12776
+Maintainer: @termux
+Version: 1.17.0-1
+Homepage: https://xcb.freedesktop.org/
+Depends: libxau, libxdmcp
+Recommends: xorg-xauth
+Description: X11 client-side library
+Filename: pool/main/l/libxcb/libxcb_1.17.0-1_aarch64.deb
+Size: 918200
+MD5sum: 6b3d5030389abf84f7213f08d975bef2
+SHA256: 7ecf6eab7ad56e0d2b61d519c2dd0d2a8d566836343323a117291bf1de6758d6
+

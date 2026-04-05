@@ -1,0 +1,18 @@
+Package: python
+Architecture: aarch64
+Installed-Size: 24560
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 3.13.12-5
+Homepage: https://python.org/
+Breaks: python2 (<= 2.7.15), python-dev
+Depends: gdbm, libandroid-posix-semaphore, libandroid-support, libbz2, libcrypt, libexpat, libffi, liblzma, libsqlite, ncurses, ncurses-ui-libs, openssl, readline, zlib
+Recommends: python-ensurepip-wheels, python-pip
+Replaces: python-dev
+Provides: python3
+Suggests: python-tkinter
+Description: Python 3 programming language intended to enable clear programs
+Filename: pool/main/p/python/python_3.13.12-5_aarch64.deb
+Size: 4538132
+MD5sum: 98f47e9e5ce366ddf9075001ef662483
+SHA256: 3b2a83b90009e4a70d0cffea291f5ce53fe06cb9853bed90f80c5102f9db0202
+

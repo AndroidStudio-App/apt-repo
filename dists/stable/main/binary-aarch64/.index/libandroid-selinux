@@ -1,0 +1,13 @@
+Package: libandroid-selinux
+Architecture: aarch64
+Installed-Size: 308
+Maintainer: @termux
+Version: 14.0.0.11-1
+Homepage: https://selinuxproject.org
+Depends: pcre2
+Description: Android fork of libselinux, an SELinux userland library
+Filename: pool/main/l/libandroid-selinux/libandroid-selinux_14.0.0.11-1_aarch64.deb
+Size: 59360
+MD5sum: d2784ef8d148e5be4a9936ab24845a11
+SHA256: f298ecaf70fbfa56f9fc5a624f896f119c7c1bd7fed8d1d49176f00efafa1bc1
+

@@ -1,0 +1,15 @@
+Package: libdb
+Architecture: aarch64
+Installed-Size: 2336
+Maintainer: @termux
+Version: 18.1.40-5
+Homepage: https://www.oracle.com/database/berkeley-db
+Breaks: libdb-dev
+Depends: libc++
+Replaces: libdb-dev
+Description: The Berkeley DB embedded database system (library)
+Filename: pool/main/l/libdb/libdb_18.1.40-5_aarch64.deb
+Size: 508016
+MD5sum: c1a4518996fe2c65457631b2b25be089
+SHA256: 97090a6ef40ea4bd112f0311655d471b421df3090d917e9fad91287ae52a08a6
+

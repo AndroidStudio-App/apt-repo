@@ -1,0 +1,13 @@
+Package: sqlite
+Architecture: aarch64
+Installed-Size: 1536
+Maintainer: @termux
+Version: 3.52.0-1
+Homepage: https://www.sqlite.org
+Depends: readline, zlib
+Description: Command line shell for SQLite
+Filename: pool/main/s/sqlite/sqlite_3.52.0-1_aarch64.deb
+Size: 652220
+MD5sum: c98ae5934109dfbfe87e45bf0d391116
+SHA256: 2a9944a161df5e7968ee73cfb91412a528655c57c40d008bf372c239dbfe718f
+

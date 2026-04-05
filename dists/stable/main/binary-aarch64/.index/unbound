@@ -1,0 +1,13 @@
+Package: unbound
+Architecture: aarch64
+Installed-Size: 3460
+Maintainer: @termux
+Version: 1.24.2-2
+Homepage: https://unbound.net/
+Depends: libexpat, libunbound (= 1.24.2-2)
+Description: Unbound command-line tools
+Filename: pool/main/u/unbound/unbound_1.24.2-2_aarch64.deb
+Size: 639464
+MD5sum: a87ca8059a0b6859a5d6e1ae85bc18d1
+SHA256: b1188d0023ac63ea6a7ff3a38866b2f006de8cb646c3e95616fe8efa569a6264
+

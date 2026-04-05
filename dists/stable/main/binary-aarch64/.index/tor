@@ -1,0 +1,13 @@
+Package: tor
+Architecture: aarch64
+Installed-Size: 28404
+Maintainer: @termux
+Version: 0.4.9.6
+Homepage: https://www.torproject.org
+Depends: libevent, liblzma, openssl, resolv-conf, zlib
+Description: The Onion Router anonymizing overlay network
+Filename: pool/main/t/tor/tor_0.4.9.6_aarch64.deb
+Size: 3273032
+MD5sum: 775032369962fb5fe38fa51051e048f4
+SHA256: 7f49ff09b5b60ba1938b7a6d98716fa057388c1efbb014b12dba6c5fda74863a
+

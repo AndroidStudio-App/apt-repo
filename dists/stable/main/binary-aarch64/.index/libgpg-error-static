@@ -1,0 +1,13 @@
+Package: libgpg-error-static
+Architecture: aarch64
+Installed-Size: 304
+Maintainer: @termux
+Version: 1.58
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+Depends: libgpg-error (= 1.58)
+Description: Static libraries for libgpg-error
+Filename: pool/main/l/libgpg-error-static/libgpg-error-static_1.58_aarch64.deb
+Size: 65896
+MD5sum: 99b6041309b678912a93babc9be7ac7b
+SHA256: 7e61b8e1a5f3582ceb922c3bff272890e00d963df640f83799656c19835772e5
+

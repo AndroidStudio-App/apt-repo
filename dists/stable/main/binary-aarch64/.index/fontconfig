@@ -1,0 +1,15 @@
+Package: fontconfig
+Architecture: aarch64
+Installed-Size: 712
+Maintainer: @termux
+Version: 2.17.1-1
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
+Breaks: fontconfig-dev
+Depends: freetype, libexpat, ttf-dejavu
+Replaces: fontconfig-dev
+Description: Library for configuring and customizing font access
+Filename: pool/main/f/fontconfig/fontconfig_2.17.1-1_aarch64.deb
+Size: 123116
+MD5sum: 8fe9394f77715e696dddde26655f6501
+SHA256: d3234df6d967ff0553ef64525fe8597c14c375f8b4119a3b795f96f9485c5516
+

@@ -1,0 +1,13 @@
+Package: gpgv
+Architecture: aarch64
+Installed-Size: 508
+Maintainer: @termux
+Version: 2.5.17
+Homepage: https://www.gnupg.org/
+Depends: libassuan, libbz2, libgcrypt, libgpg-error, libnpth, zlib
+Description: GNU privacy guard - signature verification tool
+Filename: pool/main/g/gpgv/gpgv_2.5.17_aarch64.deb
+Size: 188248
+MD5sum: 6d913a1012d8377b8cb116f6439d0db9
+SHA256: add0a4dfd54307e95077eaf717110940475765a98c684731b44d5711b9d26806
+

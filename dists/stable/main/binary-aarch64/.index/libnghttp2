@@ -1,0 +1,14 @@
+Package: libnghttp2
+Architecture: aarch64
+Installed-Size: 516
+Maintainer: @termux
+Version: 1.68.1
+Homepage: https://nghttp2.org/
+Breaks: libnghttp2-dev
+Replaces: libnghttp2-dev
+Description: nghttp HTTP 2.0 library
+Filename: pool/main/l/libnghttp2/libnghttp2_1.68.1_aarch64.deb
+Size: 95480
+MD5sum: 4f476893d8ccf913fc740bb76d70edd9
+SHA256: 5a5f0e480e09e4dcb777d7479778de349e614470a22df0ef80044cf093ac522a
+

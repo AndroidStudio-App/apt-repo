@@ -1,0 +1,15 @@
+Package: libgnutls
+Architecture: aarch64
+Installed-Size: 2388
+Maintainer: @termux
+Version: 3.8.11
+Homepage: https://www.gnutls.org/
+Breaks: libgnutls-dev
+Depends: libc++, libgmp, libnettle, ca-certificates, libidn2, libunbound, libunistring, zlib
+Replaces: libgnutls-dev
+Description: Secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them
+Filename: pool/main/l/libgnutls/libgnutls_3.8.11_aarch64.deb
+Size: 729684
+MD5sum: 260b7f52005c1e80ded69ed071c322fc
+SHA256: 94919e39efe5a40043899fb531ec14cd2045bdc6ee378dd73052ef0299019987
+

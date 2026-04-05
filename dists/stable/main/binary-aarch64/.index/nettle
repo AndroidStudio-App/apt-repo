@@ -1,0 +1,13 @@
+Package: nettle
+Architecture: aarch64
+Installed-Size: 112
+Maintainer: @termux
+Version: 4.0+really3.10.2
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Depends: libnettle (= 4.0+really3.10.2)
+Description: Low level cryptographic tools
+Filename: pool/main/n/nettle/nettle_4.0+really3.10.2_aarch64.deb
+Size: 18172
+MD5sum: b3c1e41dee21e4db83f6aefdb40143a1
+SHA256: ced01046a12807d980ccee319628565fb6403ae3230b5751bcb9b71c5cec369a
+

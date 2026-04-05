@@ -1,0 +1,13 @@
+Package: libx11-static
+Architecture: aarch64
+Installed-Size: 2136
+Maintainer: @termux
+Version: 1.8.13
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11 (= 1.8.13)
+Description: Static libraries for libx11
+Filename: pool/main/l/libx11-static/libx11-static_1.8.13_aarch64.deb
+Size: 567772
+MD5sum: e08fe4e8ac0366a490148eefe5eb67b2
+SHA256: 207ca6defb401a1de46ca2db80ab4185b151530254ff6a361afbd04bea19888c
+

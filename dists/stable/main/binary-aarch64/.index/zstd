@@ -1,0 +1,15 @@
+Package: zstd
+Architecture: aarch64
+Installed-Size: 1312
+Maintainer: @termux
+Version: 1.5.7-1
+Homepage: https://github.com/facebook/zstd
+Breaks: zstd-dev
+Depends: liblzma, zlib
+Replaces: zstd-dev
+Description: Zstandard compression
+Filename: pool/main/z/zstd/zstd_1.5.7-1_aarch64.deb
+Size: 359676
+MD5sum: 190289830e9aba5ae2cd285e18d14aca
+SHA256: bd06fe901d5d4cf41c76030a3375f1aef48f85364d3290de4d4348227ac281f3
+

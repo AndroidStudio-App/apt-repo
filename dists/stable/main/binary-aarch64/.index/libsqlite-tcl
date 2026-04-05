@@ -1,0 +1,14 @@
+Package: libsqlite-tcl
+Architecture: aarch64
+Installed-Size: 1272
+Maintainer: @termux
+Version: 3.52.0-1
+Homepage: https://www.sqlite.org
+Depends: tcl, libsqlite (= 3.52.0-1)
+Breaks: sqlcipher (<< 4.4.2-1), tcl (<< 8.6.10-4)
+Description: tcl bindings for SQLite
+Filename: pool/main/l/libsqlite-tcl/libsqlite-tcl_3.52.0-1_aarch64.deb
+Size: 546244
+MD5sum: 311aa8da289e152ef0104683a30abc1e
+SHA256: 960b943fca405d4c849694eea1fb43595e87fd15dd49caf072014e6557686c75
+

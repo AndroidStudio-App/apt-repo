@@ -1,0 +1,14 @@
+Package: libexpat
+Architecture: aarch64
+Installed-Size: 384
+Maintainer: @termux
+Version: 2.7.5
+Homepage: https://libexpat.github.io/
+Breaks: libexpat-dev
+Replaces: libexpat-dev
+Description: XML parsing C library
+Filename: pool/main/l/libexpat/libexpat_2.7.5_aarch64.deb
+Size: 92360
+MD5sum: c33d2bd128bdbcce32fb424864645181
+SHA256: 3d485cdc6302de9684c82f594de39d1776a258c7a982de0c9272867b3fb8d066
+

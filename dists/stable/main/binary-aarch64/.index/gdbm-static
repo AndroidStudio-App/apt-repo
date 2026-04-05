@@ -1,0 +1,13 @@
+Package: gdbm-static
+Architecture: aarch64
+Installed-Size: 188
+Maintainer: @termux
+Version: 1.26-1
+Homepage: https://www.gnu.org.ua/software/gdbm/
+Depends: gdbm (= 1.26-1)
+Description: Static libraries for gdbm
+Filename: pool/main/g/gdbm-static/gdbm-static_1.26-1_aarch64.deb
+Size: 31972
+MD5sum: 7d5bb639fafab0b6a7874963d80af3af
+SHA256: ca5868ed57a52abee3a8cf431ed752257936f8f68da9e372787cde50f0b88c3d
+

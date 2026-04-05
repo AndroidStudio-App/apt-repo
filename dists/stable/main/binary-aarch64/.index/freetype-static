@@ -1,0 +1,13 @@
+Package: freetype-static
+Architecture: aarch64
+Installed-Size: 972
+Maintainer: @termux
+Version: 2.14.3
+Homepage: https://www.freetype.org
+Depends: freetype (= 2.14.3)
+Description: Static libraries for freetype
+Filename: pool/main/f/freetype-static/freetype-static_2.14.3_aarch64.deb
+Size: 301824
+MD5sum: f2556eca170514fa1bd77fa2d3d8a06a
+SHA256: 4f4103057cfdfff2016edbba4bfb753d38ff1a01dc3f488c724265ac3f254b9f
+

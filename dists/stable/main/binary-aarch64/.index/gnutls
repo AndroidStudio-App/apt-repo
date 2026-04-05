@@ -1,0 +1,13 @@
+Package: gnutls
+Architecture: aarch64
+Installed-Size: 904
+Maintainer: @termux
+Version: 3.8.11
+Homepage: https://www.gnutls.org/
+Depends: libgnutls (= 3.8.11)
+Description: Commandline utilities for interfacing with the gnutls library
+Filename: pool/main/g/gnutls/gnutls_3.8.11_aarch64.deb
+Size: 176564
+MD5sum: a9b2ad402987675e417d7174cab3b52e
+SHA256: 91288aa7fa33f15490559293cce29c07a31cd2f0473aa675943c289b1d24ec70
+

@@ -1,0 +1,13 @@
+Package: pzstd
+Architecture: aarch64
+Installed-Size: 152
+Maintainer: @termux
+Version: 1.5.7-1
+Homepage: https://github.com/facebook/zstd
+Depends: libc++, zstd (= 1.5.7-1)
+Description: A Pigz-like tool for Zstandard
+Filename: pool/main/p/pzstd/pzstd_1.5.7-1_aarch64.deb
+Size: 41816
+MD5sum: 3a75580607cb7a5ebec56bd5dd19384e
+SHA256: fdd81b0499211bccdf84ae7d2f785a92759cc3bd06f2eee4e2c79d95a98305a9
+

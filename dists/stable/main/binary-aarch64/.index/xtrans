@@ -1,0 +1,12 @@
+Package: xtrans
+Architecture: all
+Installed-Size: 296
+Maintainer: @termux
+Version: 1.6.0
+Homepage: https://xorg.freedesktop.org/
+Description: X transport library
+Filename: pool/main/x/xtrans/xtrans_1.6.0_all.deb
+Size: 39880
+MD5sum: 8a1dda285e69770c055a40d546a0f7d8
+SHA256: abf9acd1f765def87e0772577104ba74e2bf3d392a453ce7cd8286416e1f53bc
+

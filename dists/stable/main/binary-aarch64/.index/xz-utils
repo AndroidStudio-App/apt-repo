@@ -1,0 +1,14 @@
+Package: xz-utils
+Architecture: aarch64
+Installed-Size: 228
+Maintainer: @termux
+Version: 5.8.3
+Homepage: https://tukaani.org/xz/
+Essential: yes
+Depends: liblzma (= 5.8.3)
+Description: XZ-format compression tools
+Filename: pool/main/x/xz-utils/xz-utils_5.8.3_aarch64.deb
+Size: 71200
+MD5sum: 08479b69a7d90f7c743119b3152b4fde
+SHA256: ac6b7a00abdfc2af91e3fc179f9da6eb50bb87aa5e316fb47be6a0212b14b8a3
+

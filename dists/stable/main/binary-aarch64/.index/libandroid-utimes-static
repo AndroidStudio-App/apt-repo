@@ -1,0 +1,13 @@
+Package: libandroid-utimes-static
+Architecture: aarch64
+Installed-Size: 32
+Maintainer: @termux
+Version: 0.4
+Homepage: https://github.com/termux/libandroid-utimes
+Depends: libandroid-utimes (= 0.4)
+Description: Static libraries for libandroid-utimes
+Filename: pool/main/l/libandroid-utimes-static/libandroid-utimes-static_0.4_aarch64.deb
+Size: 1688
+MD5sum: 9fbf5adfc9cb0ec62d907428fa6a8170
+SHA256: 6beee8f0716cbb1bc12a8f94008fd69996e2fc2888e6437625c42c56aee3eb99
+

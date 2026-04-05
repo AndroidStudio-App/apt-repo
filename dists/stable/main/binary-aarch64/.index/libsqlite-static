@@ -1,0 +1,13 @@
+Package: libsqlite-static
+Architecture: aarch64
+Installed-Size: 1748
+Maintainer: @termux
+Version: 3.52.0-1
+Homepage: https://www.sqlite.org
+Depends: libsqlite (= 3.52.0-1)
+Description: Static libraries for libsqlite
+Filename: pool/main/l/libsqlite-static/libsqlite-static_3.52.0-1_aarch64.deb
+Size: 569532
+MD5sum: 9c1eb5b6729f5d88887fd64b9f9fe917
+SHA256: f0f9604d5f12142e74ce46d44bdd9ac572f1fb400f2fa17e1e2f9f9281b2d124
+

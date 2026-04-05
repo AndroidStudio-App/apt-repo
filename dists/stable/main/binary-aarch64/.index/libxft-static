@@ -1,0 +1,13 @@
+Package: libxft-static
+Architecture: aarch64
+Installed-Size: 164
+Maintainer: @termux
+Version: 2.3.9-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libxft (= 2.3.9-1)
+Description: Static libraries for libxft
+Filename: pool/main/l/libxft-static/libxft-static_2.3.9-1_aarch64.deb
+Size: 36652
+MD5sum: ad120e56dd271fdd2da4064a8b6b3b04
+SHA256: 454194dfcf8cd9ecb6171ef60f149c46657feb18040f87f2a2cb062ab802728a
+

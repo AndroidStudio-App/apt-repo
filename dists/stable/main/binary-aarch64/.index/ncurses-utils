@@ -1,0 +1,13 @@
+Package: ncurses-utils
+Architecture: aarch64
+Installed-Size: 272
+Maintainer: @termux
+Version: 6.6.20260307+really6.5.20250830
+Homepage: https://invisible-island.net/ncurses/
+Depends: ncurses (= 6.6.20260307+really6.5.20250830)
+Description: Tools for working with terminals
+Filename: pool/main/n/ncurses-utils/ncurses-utils_6.6.20260307+really6.5.20250830_aarch64.deb
+Size: 89060
+MD5sum: 736f6c4f4f9826654e4839a02c23da18
+SHA256: 6adfa1faa845654cb17e2066b612ad45e9fbe7176af9a9ee103583ef47dcea0c
+

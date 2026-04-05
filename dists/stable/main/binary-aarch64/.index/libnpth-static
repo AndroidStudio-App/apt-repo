@@ -1,0 +1,13 @@
+Package: libnpth-static
+Architecture: aarch64
+Installed-Size: 48
+Maintainer: @termux
+Version: 1.6-3
+Homepage: https://www.gnupg.org/related_software/npth/
+Depends: libnpth (= 1.6-3)
+Description: Static libraries for libnpth
+Filename: pool/main/l/libnpth-static/libnpth-static_1.6-3_aarch64.deb
+Size: 4684
+MD5sum: 25fa5331879d75ec21e9a322bc617fa5
+SHA256: 4b16929883de55de8d5d5b56d601f4dc4cccd047e9449e881d34ebbb310f27ce
+

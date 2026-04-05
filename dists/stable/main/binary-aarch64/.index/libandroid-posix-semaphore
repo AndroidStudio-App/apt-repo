@@ -1,0 +1,12 @@
+Package: libandroid-posix-semaphore
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: @termux
+Version: 0.1-4
+Homepage: https://man7.org/linux/man-pages/man7/sem_overview.7.html
+Description: Shared library for the posix semaphore system function
+Filename: pool/main/l/libandroid-posix-semaphore/libandroid-posix-semaphore_0.1-4_aarch64.deb
+Size: 4096
+MD5sum: 1d135d9c598da8ce8c4880ef4c56c73f
+SHA256: 95e466d80d2c5f56646ce5c06ed046da842e81e7018c91a30b36aadf3ae37c5b
+

@@ -1,0 +1,13 @@
+Package: libc++
+Architecture: aarch64
+Installed-Size: 1384
+Maintainer: @termux
+Version: 29
+Homepage: https://libcxx.llvm.org/
+Essential: yes
+Description: C++ Standard Library
+Filename: pool/main/l/libc++/libc++_29_aarch64.deb
+Size: 335000
+MD5sum: 90d6af0a0aa00f430ac09ed9d1a52570
+SHA256: 1761c97869eef74ee2286af1727c54108211b25a6ae64218cb90e249d8f66200
+

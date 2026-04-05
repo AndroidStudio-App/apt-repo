@@ -1,0 +1,15 @@
+Package: libnettle
+Architecture: aarch64
+Installed-Size: 1416
+Maintainer: @termux
+Version: 4.0+really3.10.2
+Homepage: https://www.lysator.liu.se/~nisse/nettle/
+Breaks: libnettle-dev
+Depends: libgmp
+Replaces: libnettle-dev
+Description: Cryptographic library that is designed to fit easily in more or less any context
+Filename: pool/main/l/libnettle/libnettle_4.0+really3.10.2_aarch64.deb
+Size: 406528
+MD5sum: 8b9f4f37224b4e2c5d2cc98f423e0455
+SHA256: dec12273b20c5b6ea8003af0d019c0a6cb95d2f05addd49548ccfc65b84f4c8b
+

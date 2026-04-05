@@ -1,0 +1,15 @@
+Package: readline
+Architecture: aarch64
+Installed-Size: 1932
+Maintainer: @termux
+Version: 8.3.1-2
+Homepage: https://tiswww.case.edu/php/chet/readline/rltop.html
+Breaks: bash (<< 5.0), readline-dev
+Depends: libandroid-support, ncurses
+Replaces: readline-dev
+Description: Library that allow users to edit command lines as they are typed in
+Filename: pool/main/r/readline/readline_8.3.1-2_aarch64.deb
+Size: 294100
+MD5sum: c5bd7e37754bd7c48b0ee5c180a2f6c3
+SHA256: 8ece25ac27be5018ad1ac59eb4544a79a5ae86661ad56359e0f30678fda004fb
+

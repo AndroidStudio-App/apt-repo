@@ -1,0 +1,14 @@
+Package: brotli
+Architecture: aarch64
+Installed-Size: 1052
+Maintainer: @termux
+Version: 1.2.0
+Homepage: https://github.com/google/brotli
+Breaks: brotli-dev
+Replaces: brotli-dev
+Description: lossless compression algorithm and format (command line utility)
+Filename: pool/main/b/brotli/brotli_1.2.0_aarch64.deb
+Size: 340272
+MD5sum: 1975b5309c5f4206d0adde26963b10e5
+SHA256: 069a584c359a60b7327e7570f21b3a84133144d10c83233e0f7eeeb903cd225f
+

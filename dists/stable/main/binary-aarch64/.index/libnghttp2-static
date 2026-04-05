@@ -1,0 +1,13 @@
+Package: libnghttp2-static
+Architecture: aarch64
+Installed-Size: 320
+Maintainer: @termux
+Version: 1.68.1
+Homepage: https://nghttp2.org/
+Depends: libnghttp2 (= 1.68.1)
+Description: Static libraries for libnghttp2
+Filename: pool/main/l/libnghttp2-static/libnghttp2-static_1.68.1_aarch64.deb
+Size: 63360
+MD5sum: 72c65089988f5c2606896bb66d75d4a8
+SHA256: 8c204fab8fb2b13020ab2bfd8974cab41b21f5fb15cb91de3b10c7310efc4e68
+

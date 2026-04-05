@@ -1,0 +1,13 @@
+Package: libandroid-spawn
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: @termux
+Version: 0.3
+Homepage: https://man7.org/linux/man-pages/man3/posix_spawn.3.html
+Depends: libc++
+Description: Shared library for the posix_spawn system function
+Filename: pool/main/l/libandroid-spawn/libandroid-spawn_0.3_aarch64.deb
+Size: 16088
+MD5sum: 5c62fe6b1db2832f4ef5cca75facfd7e
+SHA256: 17597ccf6c8a6a0731c21fe3cbfc106a2ed472d462ce923815fd75b09fb1040b
+

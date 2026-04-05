@@ -1,0 +1,13 @@
+Package: libxft
+Architecture: aarch64
+Installed-Size: 496
+Maintainer: @termux
+Version: 2.3.9-1
+Homepage: https://xorg.freedesktop.org/
+Depends: fontconfig, freetype, libx11, libxrender
+Description: FreeType-based font drawing library for X
+Filename: pool/main/l/libxft/libxft_2.3.9-1_aarch64.deb
+Size: 48052
+MD5sum: 5e9da59df8428014b2b3d83c1eda43ee
+SHA256: 5a586f62d13498ced0c80efed21806d9a5a13247f14b1583c62ba6889bddc04a
+

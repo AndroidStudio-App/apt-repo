@@ -1,0 +1,13 @@
+Package: libgnutls-static
+Architecture: aarch64
+Installed-Size: 3624
+Maintainer: @termux
+Version: 3.8.11
+Homepage: https://www.gnutls.org/
+Depends: libgnutls (= 3.8.11)
+Description: Static libraries for libgnutls
+Filename: pool/main/l/libgnutls-static/libgnutls-static_3.8.11_aarch64.deb
+Size: 784800
+MD5sum: 94eda39240a9da37541181df7a0e4e18
+SHA256: 82f984a7e0736b0608a22d976067bb61db4f3685dfd9ceaa97bb403dd4222839
+

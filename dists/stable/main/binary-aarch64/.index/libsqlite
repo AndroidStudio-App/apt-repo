@@ -1,0 +1,15 @@
+Package: libsqlite
+Architecture: aarch64
+Installed-Size: 3172
+Maintainer: @termux
+Version: 3.52.0-1
+Homepage: https://www.sqlite.org
+Breaks: libsqlite-dev
+Depends: zlib
+Replaces: libsqlite-dev
+Description: Library implementing a self-contained and transactional SQL database engine
+Filename: pool/main/l/libsqlite/libsqlite_3.52.0-1_aarch64.deb
+Size: 753392
+MD5sum: 3e19c8f0554e3b841fba5d8dcd3a0766
+SHA256: 75130278e68219e39b5b22cf0b212356730e61eb80798e1ce514339e6171756a
+

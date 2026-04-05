@@ -1,0 +1,13 @@
+Package: attr-static
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: @termux
+Version: 2.5.2-1
+Homepage: http://savannah.nongnu.org/projects/attr/
+Depends: attr (= 2.5.2-1)
+Description: Static libraries for attr
+Filename: pool/main/a/attr-static/attr-static_2.5.2-1_aarch64.deb
+Size: 7016
+MD5sum: 0d190f1a76e6f9f9dcef7192d510d5b1
+SHA256: 51129e67cd670ab5f373286fe8c04e6c5c06e3caf4980839610ea842d042aada
+

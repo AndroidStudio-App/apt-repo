@@ -1,0 +1,14 @@
+Package: libnpth
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: @termux
+Version: 1.6-3
+Homepage: https://www.gnupg.org/related_software/npth/
+Breaks: libnpth-dev
+Replaces: libnpth-dev
+Description: New GNU Portable Threads Library
+Filename: pool/main/l/libnpth/libnpth_1.6-3_aarch64.deb
+Size: 11228
+MD5sum: 4b48463d5a2d5a27db5c7186d5ae5782
+SHA256: 4b5f658ebebb44af1c93929e0e5ffc1f3a9e18fd2946f9240e87a047daa7cbd9
+

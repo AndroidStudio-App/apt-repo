@@ -1,0 +1,16 @@
+Package: python-xcbgen
+Architecture: all
+Installed-Size: 132
+Maintainer: @termux
+Version: 1.17.0-2
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-proto (= 1.17.0-2)
+Breaks: xcb-proto (<< 1.15.2)
+Recommends: python
+Replaces: xcb-proto (<< 1.15.2)
+Description: The xcbgen Python module
+Filename: pool/main/p/python-xcbgen/python-xcbgen_1.17.0-2_all.deb
+Size: 15180
+MD5sum: 27888a6b1c4f1b319c8e810720445c23
+SHA256: 417dcc88b970e3c53eefd71eca0ef1bf406a62d0cfb20664ad0065465f15c902
+

@@ -1,0 +1,12 @@
+Package: xorg-util-macros
+Architecture: all
+Installed-Size: 144
+Maintainer: @termux
+Version: 1.20.2
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org Autotools macros
+Filename: pool/main/x/xorg-util-macros/xorg-util-macros_1.20.2_all.deb
+Size: 21948
+MD5sum: 6c7ba10d0e10a522cd1d985b791ed6aa
+SHA256: 6b40e0f0ad2ba25f781ea162b288c49407d1c322a36d050f7690e730523b63dd
+

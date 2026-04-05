@@ -1,0 +1,14 @@
+Package: docbook-xml
+Architecture: all
+Installed-Size: 2412
+Maintainer: @termux
+Version: 5.1-1
+Homepage: https://www.oasis-open.org/docbook/
+Breaks: docbook-xsl (<= 1.79.2-1)
+Depends: libxml2-utils
+Description: A widely used XML scheme for writing documentation and help
+Filename: pool/main/d/docbook-xml/docbook-xml_5.1-1_all.deb
+Size: 78172
+MD5sum: 09f356e602b0f10c8b8c4bc5d7667dfd
+SHA256: 7a2bb7f49ff728ecff8339e4703a1cdb536f2ff03dfed2a994bf55f200641e28
+

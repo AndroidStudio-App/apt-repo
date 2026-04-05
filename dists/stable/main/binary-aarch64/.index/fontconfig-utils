@@ -1,0 +1,13 @@
+Package: fontconfig-utils
+Architecture: aarch64
+Installed-Size: 132
+Maintainer: @termux
+Version: 2.17.1-1
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
+Depends: fontconfig (= 2.17.1-1)
+Description: Fontconfig binaries
+Filename: pool/main/f/fontconfig-utils/fontconfig-utils_2.17.1-1_aarch64.deb
+Size: 14368
+MD5sum: a5bf8e11f253fff3bbf2c2803035f5a9
+SHA256: fa6c7a3fd7ac609ee392cfbb66975de5e4f1aee81851a200516c6b2da1f94e56
+

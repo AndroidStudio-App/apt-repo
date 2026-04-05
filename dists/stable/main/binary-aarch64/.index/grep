@@ -1,0 +1,14 @@
+Package: grep
+Architecture: aarch64
+Installed-Size: 456
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 3.12-3
+Homepage: https://www.gnu.org/software/grep/
+Depends: libandroid-support, pcre2
+Essential: yes
+Description: Command which searches one or more input files for lines containing a match to a specified pattern
+Filename: pool/main/g/grep/grep_3.12-3_aarch64.deb
+Size: 128344
+MD5sum: 308b2298967cfcacdc857bab3a36d8bc
+SHA256: 6821d690aa39aabb2f0c0578b7f9d3ce844817d58bb471e6d4d3d5c3351099dd
+

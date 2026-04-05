@@ -1,0 +1,13 @@
+Package: fontconfig-static
+Architecture: aarch64
+Installed-Size: 520
+Maintainer: @termux
+Version: 2.17.1-1
+Homepage: https://www.freedesktop.org/wiki/Software/fontconfig/
+Depends: fontconfig (= 2.17.1-1)
+Description: Static libraries for fontconfig
+Filename: pool/main/f/fontconfig-static/fontconfig-static_2.17.1-1_aarch64.deb
+Size: 117844
+MD5sum: 92beec0dd29d325824c2f68d182453ad
+SHA256: b5bbbaef32cc309d1a8524743225bfdef18779155ac5edc4c8c45407c3ff79d6
+

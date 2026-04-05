@@ -1,0 +1,16 @@
+Package: lld
+Architecture: aarch64
+Installed-Size: 20324
+Maintainer: @finagolfin
+Version: 21.1.8-2
+Homepage: https://clang.llvm.org/
+Depends: libllvm (= 21.1.8-2)
+Breaks: binutils (<< 2.46.0-3), binutils-is-llvm
+Conflicts: binutils (<< 2.46.0-3), binutils-is-llvm
+Replaces: binutils-is-llvm
+Description: LLVM-based linker
+Filename: pool/main/l/lld/lld_21.1.8-2_aarch64.deb
+Size: 2812772
+MD5sum: 013f33c87fd6935717ce523a54a059fd
+SHA256: 6ac89e8d003a7cf7cb33702afabdf808cbe3cc5493e4b7c4bea9357326dcdfc1
+

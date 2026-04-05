@@ -1,0 +1,15 @@
+Package: libxml2
+Architecture: aarch64
+Installed-Size: 1648
+Maintainer: @termux
+Version: 2.15.2-2
+Homepage: https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home
+Breaks: libxml2-dev
+Depends: libandroid-glob, libiconv, libicu, zlib
+Replaces: libxml2-dev
+Description: Library for parsing XML documents
+Filename: pool/main/l/libxml2/libxml2_2.15.2-2_aarch64.deb
+Size: 442628
+MD5sum: dc7883e37613a6284923e3bc259116d8
+SHA256: 6f89a02314d1ed2b41e5fc2bbb3a27e1ae5c4b89924c70bbc6945227209ba548
+

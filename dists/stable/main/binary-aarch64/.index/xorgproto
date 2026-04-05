@@ -1,0 +1,15 @@
+Package: xorgproto
+Architecture: all
+Installed-Size: 2292
+Maintainer: @termux
+Version: 2025.1
+Homepage: https://xorg.freedesktop.org/
+Depends: xorg-util-macros
+Conflicts: x11-proto
+Replaces: x11-proto
+Description: X.Org X11 Protocol headers
+Filename: pool/main/x/xorgproto/xorgproto_2025.1_all.deb
+Size: 249640
+MD5sum: ce5bb2f7a462027dab18562b134769e0
+SHA256: 68b8c913ac7506ada8f9cfc27e5430e5597e98ce3b0ae357b98ff19c5da0d3fb
+

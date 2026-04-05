@@ -1,0 +1,13 @@
+Package: libandroid-support-static
+Architecture: aarch64
+Installed-Size: 72
+Maintainer: @termux
+Version: 29-1
+Homepage: https://github.com/termux/libandroid-support
+Depends: libandroid-support (= 29-1)
+Description: Static libraries for libandroid-support
+Filename: pool/main/l/libandroid-support-static/libandroid-support-static_29-1_aarch64.deb
+Size: 8628
+MD5sum: 70aba75ad8808de2fb2def5a3b5c74f3
+SHA256: 21ff2de9fe0d2b88b7b99bc58094336d6d668e654e679477db39aa883e8f56f7
+

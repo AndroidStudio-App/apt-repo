@@ -1,0 +1,13 @@
+Package: libdb-static
+Architecture: aarch64
+Installed-Size: 9452
+Maintainer: @termux
+Version: 18.1.40-5
+Homepage: https://www.oracle.com/database/berkeley-db
+Depends: libdb (= 18.1.40-5)
+Description: Static libraries for libdb
+Filename: pool/main/l/libdb-static/libdb-static_18.1.40-5_aarch64.deb
+Size: 482916
+MD5sum: 890c9d2bb31e323b2c9b78a2c7742829
+SHA256: 6f6b313f4de5a03ce39a34a7976b6f2563a02215b79a3906c3aa6aa4d3299613
+

@@ -1,0 +1,13 @@
+Package: apt-ftparchive
+Architecture: aarch64
+Installed-Size: 316
+Maintainer: @termux
+Version: 2.8.1-2
+Homepage: https://packages.debian.org/apt
+Depends: libdb, apt (= 2.8.1-2)
+Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
+Filename: pool/main/a/apt-ftparchive/apt-ftparchive_2.8.1-2_aarch64.deb
+Size: 95736
+MD5sum: a1bdd950b967e86d6dad6a4e35f161c7
+SHA256: a162d5963ea53c05b890c10380d8ec53326b017205ac35afa1fefc6a65f266a3
+

@@ -1,0 +1,13 @@
+Package: libedit-static
+Architecture: aarch64
+Installed-Size: 384
+Maintainer: @termux
+Version: 20240517-3.1-1
+Homepage: https://thrysoee.dk/editline/
+Depends: libedit (= 20240517-3.1-1)
+Description: Static libraries for libedit
+Filename: pool/main/l/libedit-static/libedit-static_20240517-3.1-1_aarch64.deb
+Size: 76956
+MD5sum: 6b581526dc9fc8d756f257741b3f383e
+SHA256: 14275cd573681ae348d9e20eb394dc125dc6d9e603f3ba6922d8b33fe266d609
+

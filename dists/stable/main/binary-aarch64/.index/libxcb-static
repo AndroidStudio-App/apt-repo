@@ -1,0 +1,13 @@
+Package: libxcb-static
+Architecture: aarch64
+Installed-Size: 1332
+Maintainer: @termux
+Version: 1.17.0-1
+Homepage: https://xcb.freedesktop.org/
+Depends: libxcb (= 1.17.0-1)
+Description: Static libraries for libxcb
+Filename: pool/main/l/libxcb-static/libxcb-static_1.17.0-1_aarch64.deb
+Size: 160684
+MD5sum: 5dfff0e0638768c713595a8139577926
+SHA256: 3e804a712c066dc4039dd46448547aa57dd92c4208eac2b3e8361ea2798346a1
+

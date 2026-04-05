@@ -1,0 +1,14 @@
+Package: libgpg-error
+Architecture: aarch64
+Installed-Size: 604
+Maintainer: @termux
+Version: 1.58
+Homepage: https://www.gnupg.org/related_software/libgpg-error/
+Breaks: libgpg-error-dev
+Replaces: libgpg-error-dev
+Description: Small library that defines common error values for all GnuPG components
+Filename: pool/main/l/libgpg-error/libgpg-error_1.58_aarch64.deb
+Size: 121236
+MD5sum: 50e8732384c1a6ab5e83f96931cc5c20
+SHA256: f3b948702c2b7f68ccd1fcd25ceddca49f985d21ef7b185f5fdb0264874bebc4
+

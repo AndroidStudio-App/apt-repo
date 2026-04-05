@@ -1,0 +1,15 @@
+Package: libidn2
+Architecture: aarch64
+Installed-Size: 428
+Maintainer: @termux
+Version: 2.3.8-1
+Homepage: https://www.gnu.org/software/libidn/#libidn2
+Breaks: libidn2-dev
+Depends: libandroid-support, libiconv, libunistring
+Replaces: libidn2-dev
+Description: Free software implementation of IDNA2008, Punycode and TR46
+Filename: pool/main/l/libidn2/libidn2_2.3.8-1_aarch64.deb
+Size: 104732
+MD5sum: e9920d3e5c055a0f4c6e525541769ee9
+SHA256: f8acd0f281ac3c65d39f32a52c1686d782b6f96b64ca7733932eda430ea42921
+

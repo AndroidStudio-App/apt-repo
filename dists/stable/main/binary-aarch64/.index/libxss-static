@@ -1,0 +1,13 @@
+Package: libxss-static
+Architecture: aarch64
+Installed-Size: 44
+Maintainer: @termux
+Version: 1.2.5
+Homepage: https://xorg.freedesktop.org/
+Depends: libxss (= 1.2.5)
+Description: Static libraries for libxss
+Filename: pool/main/l/libxss-static/libxss-static_1.2.5_aarch64.deb
+Size: 4392
+MD5sum: 01f9a3c815c69b47733cf09726c42628
+SHA256: 9c2181a2521cdcab1c1feb475d423c741ca588817d34a88c1b649b1a670bdbd6
+

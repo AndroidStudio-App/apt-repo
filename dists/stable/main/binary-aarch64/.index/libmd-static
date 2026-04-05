@@ -1,0 +1,13 @@
+Package: libmd-static
+Architecture: aarch64
+Installed-Size: 104
+Maintainer: @termux
+Version: 1.1.0-1
+Homepage: https://www.hadrons.org/software/libmd/
+Depends: libmd (= 1.1.0-1)
+Description: Static libraries for libmd
+Filename: pool/main/l/libmd-static/libmd-static_1.1.0-1_aarch64.deb
+Size: 17892
+MD5sum: 867768e62d3f838a88254d7dbbcc50f9
+SHA256: 5f8b53f51227f9e3f4c9e9c61a99960901cc7e26a7da9cafb2a637f790cea35d
+

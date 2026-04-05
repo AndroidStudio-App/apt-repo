@@ -1,0 +1,13 @@
+Package: xsltproc
+Architecture: aarch64
+Installed-Size: 68
+Maintainer: @termux
+Version: 1.1.45-1
+Homepage: http://xmlsoft.org/libxslt/
+Depends: libxslt (= 1.1.45-1)
+Description: XSLT command line processor
+Filename: pool/main/x/xsltproc/xsltproc_1.1.45-1_aarch64.deb
+Size: 11980
+MD5sum: 87aeaa6ca44925f90ecc5b5cc2931310
+SHA256: 620a106e4222981cac6e3222641dc0ac0148be02d60af234303a782d5fb54b96
+

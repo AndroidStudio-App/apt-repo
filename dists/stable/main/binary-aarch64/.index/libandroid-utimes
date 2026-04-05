@@ -1,0 +1,12 @@
+Package: libandroid-utimes
+Architecture: aarch64
+Installed-Size: 52
+Maintainer: @termux
+Version: 0.4
+Homepage: https://github.com/termux/libandroid-utimes
+Description: futimes, futimesat and lutimes from bionic
+Filename: pool/main/l/libandroid-utimes/libandroid-utimes_0.4_aarch64.deb
+Size: 3116
+MD5sum: a4dcc010e855ecdc60d2313e70138f94
+SHA256: ef7bc558506c28bf147890f0f64f820a9b0915b3094a7170db64c6750afbd263
+

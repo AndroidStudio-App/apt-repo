@@ -1,0 +1,13 @@
+Package: libpolly
+Architecture: aarch64
+Installed-Size: 5816
+Maintainer: @finagolfin
+Version: 21.1.8-2
+Homepage: https://clang.llvm.org/
+Depends: libllvm (= 21.1.8-2)
+Description: High-level loop and data-locality optimizer for clang
+Filename: pool/main/l/libpolly/libpolly_21.1.8-2_aarch64.deb
+Size: 1224680
+MD5sum: fe1bbee403f079a0b1f74acc5e364d32
+SHA256: 14da9482b2d5c35a14a5f3a3335b334965d492cf1df362dbb8d0547948c73f17
+

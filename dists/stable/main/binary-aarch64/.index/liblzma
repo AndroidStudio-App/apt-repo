@@ -1,0 +1,15 @@
+Package: liblzma
+Architecture: aarch64
+Installed-Size: 864
+Maintainer: @termux
+Version: 5.8.3
+Homepage: https://tukaani.org/xz/
+Breaks: liblzma-dev
+Essential: yes
+Replaces: liblzma-dev
+Description: XZ-format compression library
+Filename: pool/main/l/liblzma/liblzma_5.8.3_aarch64.deb
+Size: 193088
+MD5sum: 85788d91d5d28af2dbed80d0fccc20b4
+SHA256: 5592cf8e1e3d0ad90e8dc35544e001cee68829013ebd131dec6d9c18c94c9033
+

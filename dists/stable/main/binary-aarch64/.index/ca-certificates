@@ -1,0 +1,12 @@
+Package: ca-certificates
+Architecture: all
+Installed-Size: 268
+Maintainer: @termux
+Version: 1:2026.03.19
+Homepage: https://curl.se/docs/caextract.html
+Description: Common CA certificates
+Filename: pool/main/c/ca-certificates/ca-certificates_1:2026.03.19_all.deb
+Size: 124744
+MD5sum: cb254af27554f78ef36a9713e6dafecd
+SHA256: f1d56208cdbad40247ac34b891c86176b2317431c178ab9134bb440d0b955030
+

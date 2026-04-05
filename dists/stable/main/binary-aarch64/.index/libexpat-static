@@ -1,0 +1,13 @@
+Package: libexpat-static
+Architecture: aarch64
+Installed-Size: 244
+Maintainer: @termux
+Version: 2.7.5
+Homepage: https://libexpat.github.io/
+Depends: libexpat (= 2.7.5)
+Description: Static libraries for libexpat
+Filename: pool/main/l/libexpat-static/libexpat-static_2.7.5_aarch64.deb
+Size: 57644
+MD5sum: c60af2005420c9aaf8e00ff82fc2134c
+SHA256: 6659ba63af9ae287c2efe5168120594a235e4eff9296fa17ffd3f0467479f49b
+

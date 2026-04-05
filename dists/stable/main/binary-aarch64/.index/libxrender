@@ -1,0 +1,13 @@
+Package: libxrender
+Architecture: aarch64
+Installed-Size: 164
+Maintainer: @termux
+Version: 0.9.12-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11
+Description: X Rendering Extension client library
+Filename: pool/main/l/libxrender/libxrender_0.9.12-1_aarch64.deb
+Size: 24656
+MD5sum: 2f597070404b9083d5086f27e9552af0
+SHA256: bcf084546b260c60f92063300907ccd1a2c916cc7cdcc0a7902a7f2c17188190
+

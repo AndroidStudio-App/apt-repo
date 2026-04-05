@@ -1,0 +1,13 @@
+Package: python-static
+Architecture: aarch64
+Installed-Size: 49668
+Maintainer: Yaksh Bariya <thunder-coding@termux.dev>
+Version: 3.13.12-5
+Homepage: https://python.org/
+Depends: python (= 3.13.12-5)
+Description: Static libraries for python
+Filename: pool/main/p/python-static/python-static_3.13.12-5_aarch64.deb
+Size: 7281568
+MD5sum: 32fd786f13f1b0b699be6bc3be174c1c
+SHA256: 332fe59e0e95f1287d7859736d6d96bd790f706cf7265ec002f98f952a200faf
+

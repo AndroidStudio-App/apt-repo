@@ -1,0 +1,12 @@
+Package: libxdmcp
+Architecture: aarch64
+Installed-Size: 196
+Maintainer: @termux
+Version: 1.1.5-2
+Homepage: https://xorg.freedesktop.org/
+Description: X11 Display Manager Control Protocol library
+Filename: pool/main/l/libxdmcp/libxdmcp_1.1.5-2_aarch64.deb
+Size: 24432
+MD5sum: 768f4790f3f13b063bf1b3b08d0e36d8
+SHA256: 01b3c8a27e96ed05ef47a4bb7851a9a89b8e353247a9fea6ce81eb5735a25f2f
+

@@ -1,0 +1,15 @@
+Package: clang
+Architecture: aarch64
+Installed-Size: 186820
+Maintainer: @finagolfin
+Version: 21.1.8-2
+Homepage: https://clang.llvm.org/
+Depends: libcompiler-rt, lld, llvm, ndk-sysroot, libllvm (= 21.1.8-2)
+Breaks: libllvm (<< 16.0.0), clangd
+Replaces: libllvm (<< 16.0.0), clangd
+Description: C language frontend for LLVM
+Filename: pool/main/c/clang/clang_21.1.8-2_aarch64.deb
+Size: 30435644
+MD5sum: 471991a219dd9a7f69b9875299cc2e95
+SHA256: 9f67695d49f928cf59dca8cb26ea2107a75735f64e81068f28744c65efb4c95a
+

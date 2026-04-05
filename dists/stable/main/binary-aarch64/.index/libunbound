@@ -1,0 +1,15 @@
+Package: libunbound
+Architecture: aarch64
+Installed-Size: 1248
+Maintainer: @termux
+Version: 1.24.2-2
+Homepage: https://unbound.net/
+Breaks: unbound (<< 1.17.1-1)
+Depends: libevent, libnghttp2, libngtcp2, openssl, resolv-conf
+Replaces: unbound (<< 1.17.1-1)
+Description: A validating, recursive, caching DNS resolver
+Filename: pool/main/l/libunbound/libunbound_1.24.2-2_aarch64.deb
+Size: 380600
+MD5sum: 54982196f6ecd34783f84c2337457879
+SHA256: 5c7e439732ecb192920ef3921cad9bf0b15703c11cc36c784ed98164393b2f30
+

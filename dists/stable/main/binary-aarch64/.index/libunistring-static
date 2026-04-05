@@ -1,0 +1,13 @@
+Package: libunistring-static
+Architecture: aarch64
+Installed-Size: 2964
+Maintainer: @termux
+Version: 1.3-1
+Homepage: https://www.gnu.org/software/libunistring/
+Depends: libunistring (= 1.3-1)
+Description: Static libraries for libunistring
+Filename: pool/main/l/libunistring-static/libunistring-static_1.3-1_aarch64.deb
+Size: 475128
+MD5sum: d525a645b09e2487c95f1d5ee378a24b
+SHA256: 36b2e6187e489f50d0442f9e19642d69d7d095e40628d7207058b71fd4a185fd
+

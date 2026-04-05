@@ -1,0 +1,15 @@
+Package: libpng
+Architecture: aarch64
+Installed-Size: 524
+Maintainer: @termux
+Version: 1.6.56
+Homepage: http://www.libpng.org/pub/png/libpng.html
+Breaks: libpng-dev
+Depends: zlib
+Replaces: libpng-dev
+Description: Official PNG reference library
+Filename: pool/main/l/libpng/libpng_1.6.56_aarch64.deb
+Size: 195524
+MD5sum: 048aed1e3f7a1d0070d023be00e5f154
+SHA256: 6ff43a397914117b24551b9859042dc05916bf14708e1dbbfdbbbb83691bd11f
+

@@ -1,0 +1,13 @@
+Package: lz4
+Architecture: aarch64
+Installed-Size: 284
+Maintainer: @termux
+Version: 1.10.0-1
+Homepage: https://lz4.github.io/lz4/
+Depends: liblz4 (= 1.10.0-1)
+Description: Fast LZ compression algorithm tool
+Filename: pool/main/l/lz4/lz4_1.10.0-1_aarch64.deb
+Size: 92476
+MD5sum: 7ff610728e49e6826bb0f3240b31f93f
+SHA256: d56549838ca7fbe795cf8f8e70c2b36867903f27d8ecad104b4445638e712221
+

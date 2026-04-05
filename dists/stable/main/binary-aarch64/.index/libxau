@@ -1,0 +1,12 @@
+Package: libxau
+Architecture: aarch64
+Installed-Size: 128
+Maintainer: @termux
+Version: 1.0.12-2
+Homepage: https://xorg.freedesktop.org/
+Description: X11 authorisation library
+Filename: pool/main/l/libxau/libxau_1.0.12-2_aarch64.deb
+Size: 9156
+MD5sum: b02fc7aa89c86ce7e69a0f89f0ffc3d9
+SHA256: a64f7ab714e1f3a980c03169106b940c99f7bab867732c4bbf0b0fc927019aea
+

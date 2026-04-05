@@ -1,0 +1,15 @@
+Package: freetype
+Architecture: aarch64
+Installed-Size: 1704
+Maintainer: @termux
+Version: 2.14.3
+Homepage: https://www.freetype.org
+Breaks: freetype-dev
+Depends: brotli, libbz2, libpng, zlib
+Replaces: freetype-dev
+Description: Software font engine capable of producing high-quality output
+Filename: pool/main/f/freetype/freetype_2.14.3_aarch64.deb
+Size: 412040
+MD5sum: 0499c6cd0f28daf545d160f81b696ebe
+SHA256: e231c12c5d154754ade625bbfd54a04945de574b43309e4d2ebef88fb59bf96a
+

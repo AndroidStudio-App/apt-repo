@@ -1,0 +1,13 @@
+Package: libunbound-static
+Architecture: aarch64
+Installed-Size: 2060
+Maintainer: @termux
+Version: 1.24.2-2
+Homepage: https://unbound.net/
+Depends: libunbound (= 1.24.2-2)
+Description: Static libraries for libunbound
+Filename: pool/main/l/libunbound-static/libunbound-static_1.24.2-2_aarch64.deb
+Size: 458032
+MD5sum: 6937965910c535e39f8ef4fcaf77ab7a
+SHA256: ff3aec8fb8128274d20fec94e2d0196419a46ba0e19b2608fece18aba143bb61
+

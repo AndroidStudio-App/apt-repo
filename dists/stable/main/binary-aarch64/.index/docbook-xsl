@@ -1,0 +1,13 @@
+Package: docbook-xsl
+Architecture: all
+Installed-Size: 33412
+Maintainer: @termux
+Version: 1.79.2-4
+Homepage: https://docbook.org/
+Depends: docbook-xml (>= 5.1), libxml2-utils, xsltproc
+Description: XML stylesheets for Docbook-xml transformations
+Filename: pool/main/d/docbook-xsl/docbook-xsl_1.79.2-4_all.deb
+Size: 1237576
+MD5sum: 3352a71879673dcf82e40582b34e531f
+SHA256: 8a0f49585af030a248870ed14ab642a68cb82f64b2332789d55de09bbec3c7ad
+

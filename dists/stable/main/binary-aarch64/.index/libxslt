@@ -1,0 +1,15 @@
+Package: libxslt
+Architecture: aarch64
+Installed-Size: 1784
+Maintainer: @termux
+Version: 1.1.45-1
+Homepage: http://xmlsoft.org/libxslt/
+Breaks: libxslt-dev
+Depends: libgcrypt, libgpg-error, libxml2, libandroid-glob
+Replaces: libxslt-dev
+Description: XSLT processing library
+Filename: pool/main/l/libxslt/libxslt_1.1.45-1_aarch64.deb
+Size: 225328
+MD5sum: f4b1f96db4486c6fedcdec6b6f433801
+SHA256: d8d88d260cf5bfe75d1128460cc2b1e1c7d872c86b6e5dcb301309fbe989c638
+
