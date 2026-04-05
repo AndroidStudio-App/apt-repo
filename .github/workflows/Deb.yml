@@ -2,7 +2,7 @@ name: Update Repository
 
 on:
   push:
-    branches: "*"
+    branches: [main]
     paths: ['pool/**']
   workflow_dispatch:
     inputs:
@@ -32,10 +32,10 @@ jobs:
       run: |
         mkdir -p debs
         for url in ${{ inputs.deb_urls }}; do
-          curl -fSL "$url" -o debs/$(basename "$url")
+          curl -fSL "$url" -o $(basename "$url")
         done
-        for z in *.zip; do [ -f "$z" ] && unzip -o "$z" -d debs/; done
-        for t in *.tar *.tar.gz *.tar.xz; do [ -f "$t" ] && tar -xf "$t" -C debs/; done
+        for z in *.zip; do [ -f "$z" ] && unzip -o "$z" -d debs/ || true; done
+        for t in *.tar *.tar.gz *.tar.xz; do [ -f "$t" ] && tar -xf "$t" -C debs/ || true; done
 
     - run: |
         set -e
@@ -138,6 +138,7 @@ jobs:
         GPG_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
         GPG_PASS: ${{ secrets.GPG_PASSPHRASE }}
       run: |
+        [ -z "$GPG_KEY" ] && echo "No GPG key. Skipping." && exit 0
         echo "$GPG_KEY" | gpg --batch --import
         OPTS="--batch --yes --pinentry-mode loopback"
         [ -n "$GPG_PASS" ] && OPTS="$OPTS --passphrase $GPG_PASS"
