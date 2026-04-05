@@ -31,11 +31,11 @@ jobs:
     - if: github.event_name == 'workflow_dispatch' && inputs.deb_urls != ''
       run: |
         mkdir -p debs
-        echo '${{ inputs.deb_urls }}' | sed 's/[;]/\n/g' | grep -v '^$' | while read -r url; do     
+        echo '${{ inputs.deb_urls }}' | sed 's/[ ;]/\n/g' | grep -v '^$' | while read -r url; do
           curl -fSL "$url" -o $(basename "$url")
         done
-        for z in *.zip; do [ -f "$z" ] && unzip -o "$z" -d debs/ || true; done
-        for t in *.tar *.tar.gz *.tar.xz; do [ -f "$t" ] && tar -xf "$t" -C debs/ || true; done
+        for z in *.zip; do [ -f "$z" ] && unzip -o "$z" -d debs/ && rm -f "$z" || true; done
+        for t in *.tar *.tar.gz *.tar.xz; do [ -f "$t" ] && tar -xf "$t" -C debs/ && rm -f "$t" || true; done
 
     - run: |
         set -e
@@ -110,6 +110,7 @@ jobs:
 
         gzip -9c "$PKGS" > "$PKGS.gz"
         bzip2 -9c "$PKGS" > "$PKGS.bz2"
+        rm -rf debs
 
     - run: |
         set -e
