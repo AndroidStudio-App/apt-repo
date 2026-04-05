@@ -31,7 +31,7 @@ jobs:
     - if: github.event_name == 'workflow_dispatch' && inputs.deb_urls != ''
       run: |
         mkdir -p debs
-        for url in ${{ inputs.deb_urls }}; do
+        echo '${{ inputs.deb_urls }}' | tr ' \n' '\n' | grep -v '^$' | while read -r url; do
           curl -fSL "$url" -o $(basename "$url")
         done
         for z in *.zip; do [ -f "$z" ] && unzip -o "$z" -d debs/ || true; done
