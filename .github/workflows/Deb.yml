@@ -113,7 +113,7 @@ jobs:
 
         gzip -9c "$PKGS" > "$PKGS.gz"
         bzip2 -9c "$PKGS" > "$PKGS.bz2"
-        rm -rf debs
+        rm -rf debs "$IDX"
 
     - run: |
         set -e
