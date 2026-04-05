@@ -30,13 +30,15 @@ jobs:
 
     - if: github.event_name == 'workflow_dispatch' && inputs.deb_urls != ''
       run: |
-        mkdir -p debs
         echo '${{ inputs.deb_urls }}' | sed 's/[ ;]/\n/g' | grep -v '^$' | while read -r url; do
           curl -fSL "$url" -o $(basename "$url")
         done
-        for z in *.zip; do [ -f "$z" ] && unzip -o "$z" -d debs/ && rm -f "$z" || true; done
-        for t in *.tar *.tar.gz *.tar.xz; do [ -f "$t" ] && tar -xf "$t" -C debs/ && rm -f "$t" || true; done
-        for t in debs/*.tar debs/*.tar.gz debs/*.tar.xz; do [ -f "$t" ] && tar -xf "$t" -C debs/ && rm -f "$t" || true; done
+        for z in *.zip; do [ -f "$z" ] && unzip -o "$z" && rm -f "$z" || true; done
+        for t in *.tar *.tar.gz *.tar.xz; do [ -f "$t" ] && tar -xf "$t" && rm -f "$t" || true; done
+        mkdir -p debs
+        for nested in */; do
+          [ -d "$nested" ] && [ "$nested" != "debs/" ] && [ "$nested" != ".git/" ] && mv "$nested"* debs/ 2>/dev/null || true
+        done
 
     - run: |
         set -e
