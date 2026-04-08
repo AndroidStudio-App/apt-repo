@@ -12,9 +12,9 @@ Provides: unstable-repo, game-repo, science-repo
 Suggests: gnupg
 Description: Front-end for the dpkg package manager
 Filename: pool/main/a/apt/apt_2.8.1-2_aarch64.deb
-Size: 1033260
-MD5sum: 965167650b4bd46ca5f3dfc00aa22b1e
-SHA256: 1cd446448b3a7215608e6b1d7b8edf65eadff7c54b6a1dc26389880b022428e6
+Size: 1032412
+MD5sum: 2f6cd34ec3d5daa60f13fea0ff692375
+SHA256: 3a93e3cefd13cb15cd6bd928e04ba720be02682d46a7e1cf7554c9476d3c19eb
 
 Package: apt-ftparchive
 Architecture: aarch64
@@ -25,9 +25,9 @@ Homepage: https://packages.debian.org/apt
 Depends: libdb, apt (= 2.8.1-2)
 Description: apt-ftparchive is the command line tool that generates the index files that APT uses to access a distribution source
 Filename: pool/main/a/apt-ftparchive/apt-ftparchive_2.8.1-2_aarch64.deb
-Size: 95736
-MD5sum: a1bdd950b967e86d6dad6a4e35f161c7
-SHA256: a162d5963ea53c05b890c10380d8ec53326b017205ac35afa1fefc6a65f266a3
+Size: 95588
+MD5sum: 7061cd03c471a1cf32b487c24803a0f3
+SHA256: c17b34765a7fba785bf96731f0591f9ac7d1f44dc8878177e183d7862e979f92
 
 Package: apt-transport-tor
 Architecture: all
@@ -39,8 +39,8 @@ Depends: tor, apt (= 2.8.1-2)
 Description: APT transport for anonymous package downloads via Tor
 Filename: pool/main/a/apt-transport-tor/apt-transport-tor_2.8.1-2_all.deb
 Size: 916
-MD5sum: bb040f65c3e9e301a34385bb5b5c5be1
-SHA256: 0cf64a91992e4a1da30a00038fc4a9c85eb9e6898bab3741d787467433740ef9
+MD5sum: 5d1ee4a7048558e4e4a5295a45a88130
+SHA256: d6a5e51ef9a933895cfcdbdbed769be9efb78d7671263043f0a0fb76ae87db41
 
 Package: attr
 Architecture: aarch64
