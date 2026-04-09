@@ -3218,7 +3218,7 @@ SHA256: 44b7fd57c543a324c54c8a8c8127c4ae16f1d28032f8d4db28e970b4f60ff8bb
 
 Package: libx11
 Architecture: aarch64
-Installed-Size: 13704
+Installed-Size: 13708
 Maintainer: @termux
 Version: 1.8.13
 Homepage: https://xorg.freedesktop.org/
@@ -3226,9 +3226,9 @@ Depends: libandroid-support, libxcb
 Recommends: xorg-xauth
 Description: X11 client-side library
 Filename: pool/main/l/libx11/libx11_1.8.13_aarch64.deb
-Size: 1908688
-MD5sum: 737bcce14679a569b5110b15b7559da9
-SHA256: 9aa20e8b1aca2c353722330368cd0b26c738f6dfc31288e0544131e65759e799
+Size: 1910436
+MD5sum: ac74554f66c9a81f43c593eb91e7dac1
+SHA256: 24e43f48dde2a5a4030898e04082a3d83c781e8b055dd679b99d41618ced1773
 
 Package: libx11-static
 Architecture: aarch64
@@ -3309,16 +3309,16 @@ SHA256: 48a4666622a8e7293da139aaf8270ed0298a13adc9357f50881f7f35db24211b
 
 Package: libxext
 Architecture: aarch64
-Installed-Size: 616
+Installed-Size: 620
 Maintainer: @termux
 Version: 1.3.7
 Homepage: https://xorg.freedesktop.org/
 Depends: libx11
 Description: X11 miscellaneous extensions library
 Filename: pool/main/l/libxext/libxext_1.3.7_aarch64.deb
-Size: 98024
-MD5sum: 9ae180942ff3e055c9b27879685d6ef8
-SHA256: 0805beb94d6b25e73654f1fdd13ac6a67059447e351b715c4b46a589855e4ed9
+Size: 98444
+MD5sum: 1b7628bbcfa0dc5c1d8fc939d5067e66
+SHA256: 36f987800b3979353cb22b2347548f0c3e4a0c47b5d3adac613df57feac95c40
 
 Package: libxext-static
 Architecture: aarch64
@@ -3452,6 +3452,19 @@ Filename: pool/main/l/libxml2-utils/libxml2-utils_2.15.2-2_aarch64.deb
 Size: 34040
 MD5sum: eab6b55f158d86f8d9984cc2f84b547e
 SHA256: 2346d5cfec9c7a4addd938cbdc1fbd6df23ed0c91d1b8675aba186b878bc5b13
+
+Package: libxrandr
+Architecture: aarch64
+Installed-Size: 200
+Maintainer: @termux
+Version: 1.5.5
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxext, libxrender
+Description: X11 RandR extension library
+Filename: pool/main/l/libxrandr/libxrandr_1.5.5_aarch64.deb
+Size: 22684
+MD5sum: a742faec965f867bcbdea4ec7b7b5ddb
+SHA256: b59a68cf23fe510e506fad73fc22e5334676e3148ec34e06b5b654b5bae9719a
 
 Package: libxrender
 Architecture: aarch64
