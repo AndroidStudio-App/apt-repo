@@ -38,6 +38,19 @@ Size: 25408
 MD5sum: 2517c38526542717fc2d6d45ccb249cb
 SHA256: 83ba488cee21b6653c95230420726a29ab5f1e7ad7321a91d885d92bb6c63b7c
 
+Package: ant
+Architecture: all
+Installed-Size: 3996
+Maintainer: @termux
+Version: 1.10.16
+Homepage: https://ant.apache.org/
+Depends: openjdk-21
+Description: Java based build tool like make
+Filename: pool/main/a/ant/ant_1.10.16_all.deb
+Size: 2775116
+MD5sum: 1e37ae8c11849fb56bf0e93c36bcd7ef
+SHA256: cd51701370397a3f6aab23a4670968d9b20bcc1b5cc8bede13c2cdae620d36d4
+
 Package: apr
 Architecture: aarch64
 Installed-Size: 1268
@@ -3282,6 +3295,32 @@ Size: 160684
 MD5sum: 5dfff0e0638768c713595a8139577926
 SHA256: 3e804a712c066dc4039dd46448547aa57dd92c4208eac2b3e8361ea2798346a1
 
+Package: libxcursor
+Architecture: aarch64
+Installed-Size: 372
+Maintainer: @termux
+Version: 1.2.3-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libx11, libxfixes, libxrender
+Description: X cursor management library
+Filename: pool/main/l/libxcursor/libxcursor_1.2.3-1_aarch64.deb
+Size: 27520
+MD5sum: 76171f87d33773e7787b465ac43385bc
+SHA256: 723ba09dda1cfd5355206462db4f2e6140735b96088c30c9e364af0190437de5
+
+Package: libxcursor-static
+Architecture: aarch64
+Installed-Size: 92
+Maintainer: @termux
+Version: 1.2.3-1
+Homepage: https://xorg.freedesktop.org/
+Depends: libxcursor (= 1.2.3-1)
+Description: Static libraries for libxcursor
+Filename: pool/main/l/libxcursor-static/libxcursor-static_1.2.3-1_aarch64.deb
+Size: 16912
+MD5sum: 4b36816e85ab80b4c09564a80537beac
+SHA256: e77e52ccb8286a9f19bd104fe9fbb8abf8ce7190620eefcb2dffbddd5fca4f5f
+
 Package: libxdmcp
 Architecture: aarch64
 Installed-Size: 196
@@ -4025,6 +4064,71 @@ Filename: pool/main/o/oniguruma-static/oniguruma-static_6.9.10-1_aarch64.deb
 Size: 142900
 MD5sum: d60d19559b3d445cd5ede9dcdd7ec24a
 SHA256: f1b781dd87dd99e7175260ecd164f264fa1a25aff76bbeb3d10254a604ec89f6
+
+Package: openjdk-17
+Architecture: aarch64
+Installed-Size: 217876
+Maintainer: @termux
+Version: 17.0.18
+Homepage: https://openjdk.java.net
+Depends: libandroid-shmem, libandroid-spawn, libiconv, libjpeg-turbo, zlib, littlecms, alsa-plugins
+Recommends: ca-certificates-java, openjdk-17-x, resolv-conf
+Suggests: cups
+Description: Java development kit and runtime
+Filename: pool/main/o/openjdk-17/openjdk-17_17.0.18_aarch64.deb
+Size: 95527612
+MD5sum: 553691718634e83abc6f893e48aa0038
+SHA256: 08c972cd23220c59892e18d5221fd0e3d0775d3e504e73b40baa56d814c78216
+
+Package: openjdk-17-source
+Architecture: all
+Installed-Size: 50756
+Maintainer: @termux
+Version: 17.0.18
+Homepage: https://openjdk.java.net
+Description: Source files for openjdk-17
+Filename: pool/main/o/openjdk-17-source/openjdk-17-source_17.0.18_all.deb
+Size: 47028792
+MD5sum: 02ef8d87575951b16cc4dba4a7740d7c
+SHA256: 6e8d710fc2e49bc9c4dfd7c84b6126d4a14b029887b6302c7c41fbc77e6d3eac
+
+Package: openjdk-17-x
+Architecture: aarch64
+Installed-Size: 14768
+Maintainer: @termux
+Version: 17.0.18
+Homepage: https://openjdk.java.net
+Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-17 (= 17.0.18)
+Description: Portion of openjdk-17 requiring X11 functionality
+Filename: pool/main/o/openjdk-17-x/openjdk-17-x_17.0.18_aarch64.deb
+Size: 12559808
+MD5sum: e1578a4c56fa10bf869df9c13b8a5106
+SHA256: c00c6f32012176d6e8bc0ef989ac042cd1360ac8e19815952f7eb57a61d48e63
+
+Package: openjdk-21-source
+Architecture: all
+Installed-Size: 52348
+Maintainer: @termux
+Version: 21.0.10
+Homepage: https://openjdk.java.net
+Description: Source files for openjdk-21
+Filename: pool/main/o/openjdk-21-source/openjdk-21-source_21.0.10_all.deb
+Size: 49017144
+MD5sum: d0715e1e83fd31e4e1122fd7b37ecf5b
+SHA256: a8eeae4960c2609d21ac44a4a12f8ade7944254214636a619035e04ba47ec18c
+
+Package: openjdk-21-x
+Architecture: aarch64
+Installed-Size: 14772
+Maintainer: @termux
+Version: 21.0.10
+Homepage: https://openjdk.java.net
+Depends: freetype, giflib, libandroid-shmem, libjpeg-turbo, libpng, libx11, libxext, libxi, libxrender, libxtst, openjdk-21 (= 21.0.10)
+Description: Portion of openjdk-21 requiring X11 functionality
+Filename: pool/main/o/openjdk-21-x/openjdk-21-x_21.0.10_aarch64.deb
+Size: 12569104
+MD5sum: 31313f493c755293d469d62fbc675856
+SHA256: 0554bc8ffb85b326ddf05428b682a812c6ae1be7bc776d040ed63d7e214b3c95
 
 Package: openjpeg
 Architecture: aarch64
