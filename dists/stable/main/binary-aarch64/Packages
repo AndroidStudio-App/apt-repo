@@ -25,6 +25,19 @@ Size: 449492
 MD5sum: 9fd179cf85ba3507cba79cb11af6e3dd
 SHA256: 352a3b95ce246806221e4064b27ebef6a2cae1e8e3e586ddc2e2251c51f11522
 
+Package: alsa-plugins
+Architecture: aarch64
+Installed-Size: 264
+Maintainer: @termux
+Version: 1.2.12-1
+Homepage: https://www.alsa-project.org
+Depends: libandroid-sysv-semaphore, libandroid-shmem, alsa-lib, pulseaudio
+Description: The Advanced Linux Sound Architecture (ALSA) - plugins
+Filename: pool/main/a/alsa-plugins/alsa-plugins_1.2.12-1_aarch64.deb
+Size: 25408
+MD5sum: 2517c38526542717fc2d6d45ccb249cb
+SHA256: 83ba488cee21b6653c95230420726a29ab5f1e7ad7321a91d885d92bb6c63b7c
+
 Package: apr
 Architecture: aarch64
 Installed-Size: 1268
@@ -231,6 +244,23 @@ Size: 22460
 MD5sum: 6c9869e575e99969d25ac7f684848100
 SHA256: 04a10a5f6dbb07dfd80e22fd909588b8f115edf2bb54001c2228c2209c308cb3
 
+Package: bash
+Architecture: aarch64
+Installed-Size: 4732
+Maintainer: Joshua Kahn <tom@termux.dev>
+Version: 5.3.9
+Homepage: https://www.gnu.org/software/bash/
+Breaks: bash-dev
+Depends: libandroid-support, libiconv, readline (>= 8.3), termux-tools
+Essential: yes
+Recommends: command-not-found, bash-completion
+Replaces: bash-dev
+Description: A sh-compatible shell that incorporates useful features from the Korn shell (ksh) and C shell (csh)
+Filename: pool/main/b/bash/bash_5.3.9_aarch64.deb
+Size: 955844
+MD5sum: d313e90395bd07b98f06c99d99b8f512
+SHA256: 85a6d62cdd3e61e2c20455dba5fe53ac55212e0eae13c2cadd141791664160cd
+
 Package: blk-utils
 Architecture: aarch64
 Installed-Size: 900
@@ -352,6 +382,32 @@ Filename: pool/main/c/calc/calc_2.16.1.2_aarch64.deb
 Size: 831308
 MD5sum: 7e7c62fec9021ce98848ce6127463808
 SHA256: 3e1ea4b90c6f2482865165c51ea5f634db39fb733c1f9520a1aaf92ea3db1144
+
+Package: check
+Architecture: aarch64
+Installed-Size: 560
+Maintainer: @termux
+Version: 0.15.2-3
+Homepage: https://libcheck.github.io/check
+Depends: libtool, pkg-config, texinfo
+Description: A unit testing framework for C
+Filename: pool/main/c/check/check_0.15.2-3_aarch64.deb
+Size: 97412
+MD5sum: 944dafaf71077a2ba9ea20c369f3971f
+SHA256: 54994e19af5b838b2930611966ee25e33750d29aa927eafdc7da21aff2e52394
+
+Package: check-static
+Architecture: aarch64
+Installed-Size: 124
+Maintainer: @termux
+Version: 0.15.2-3
+Homepage: https://libcheck.github.io/check
+Depends: check (= 0.15.2-3)
+Description: Static libraries for check
+Filename: pool/main/c/check-static/check-static_0.15.2-3_aarch64.deb
+Size: 22224
+MD5sum: 87e4e79ef0b08ee1e3eb0e198e399a1c
+SHA256: 68624c8d3557eb61a0aea3d3e5e3e4ac832b9df9fb11ce3c41f77c116929b5f8
 
 Package: clang
 Architecture: aarch64
@@ -514,6 +570,21 @@ Filename: pool/main/d/db/db_18.1.40-5_aarch64.deb
 Size: 40144
 MD5sum: a6c374da12d786f3ad2a75c242f537f2
 SHA256: ab242cd2861b86aa053f5e95b6bbe55feabdb23f5a04174a40fb07ab78f827ff
+
+Package: dbus
+Architecture: aarch64
+Installed-Size: 1740
+Maintainer: @termux
+Version: 1.16.2-3
+Homepage: https://dbus.freedesktop.org
+Breaks: dbus-dev
+Depends: libexpat, libx11
+Replaces: dbus-dev
+Description: Freedesktop.org message bus system
+Filename: pool/main/d/dbus/dbus_1.16.2-3_aarch64.deb
+Size: 428796
+MD5sum: 5845d7d9d59d5c68f8663ec7e5f5023f
+SHA256: c44e7f8a15d349b431700096c48d7d181a9609db5d6ecce9bd2d386ea8f08369
 
 Package: debianutils
 Architecture: aarch64
@@ -755,6 +826,19 @@ Filename: pool/main/f/findutils/findutils_4.10.0-1_aarch64.deb
 Size: 251740
 MD5sum: 8420e760a803268947fd909009338624
 SHA256: b4b184d037a1d65c0dc1bcf1b01e66154219c7851a7220e3390bd37cb2b09508
+
+Package: flac
+Architecture: aarch64
+Installed-Size: 328
+Maintainer: @termux
+Version: 1.5.0-1
+Homepage: https://xiph.org/flac/
+Depends: libflac (= 1.5.0-1)
+Description: FLAC (Free Lossless Audio Codec) command-line tool
+Filename: pool/main/f/flac/flac_1.5.0-1_aarch64.deb
+Size: 104696
+MD5sum: 244fa3e4feadc22a7587d8f2582725e6
+SHA256: 7eb2453d73a3767714da0518d0f2f1a5963bdb5cd53fa685c4d03db2b724d03d
 
 Package: fontconfig
 Architecture: aarch64
@@ -1278,6 +1362,19 @@ Filename: pool/main/k/krb5/krb5_1.22.2_aarch64.deb
 Size: 901844
 MD5sum: 009b7d966032e5ae04a6a6274ce9b566
 SHA256: b247ad6334ba5c043eb8426b885276f3e97da9a12f59c627fbef0870efcefc30
+
+Package: lame
+Architecture: aarch64
+Installed-Size: 616
+Maintainer: @termux
+Version: 3.100-7
+Homepage: https://lame.sourceforge.io/
+Depends: ncurses, libmp3lame (= 3.100-7)
+Description: High quality MPEG Audio Layer III (MP3) encoder - frontend
+Filename: pool/main/l/lame/lame_3.100-7_aarch64.deb
+Size: 192592
+MD5sum: 5bae234688dfb829e69aff333e4cc508
+SHA256: 88881c1f1f472a28a62a073b41eca9e5c232d6de67b946ad64c6c6fa7324803e
 
 Package: ldns
 Architecture: aarch64
@@ -1902,6 +1999,34 @@ Size: 16080
 MD5sum: 68ef82bc8d8e48927a3df04d203d0514
 SHA256: f95658f0fa45d43d6f2b900ad5cf9dff05b9b631a6547cb420766d81bf5cc118
 
+Package: libflac
+Architecture: aarch64
+Installed-Size: 1044
+Maintainer: @termux
+Version: 1.5.0-1
+Homepage: https://xiph.org/flac/
+Breaks: libflac-dev
+Depends: libc++, libogg
+Replaces: libflac-dev
+Description: FLAC (Free Lossless Audio Codec) library
+Filename: pool/main/l/libflac/libflac_1.5.0-1_aarch64.deb
+Size: 203068
+MD5sum: 04d7c8790d62b1c33f34edbea12d66bb
+SHA256: 02cea51a59fa1da2d2752c63981b91e83757bba1cdbe0a115d37dcb320873dbe
+
+Package: libflac-static
+Architecture: aarch64
+Installed-Size: 548
+Maintainer: @termux
+Version: 1.5.0-1
+Homepage: https://xiph.org/flac/
+Depends: libflac (= 1.5.0-1)
+Description: Static libraries for libflac
+Filename: pool/main/l/libflac-static/libflac-static_1.5.0-1_aarch64.deb
+Size: 110112
+MD5sum: 7f7eb0aa964e164e610e74769d6a6112
+SHA256: f10e1b013f3f20b5a96ed0edae406db32921261be693032bb3d6fa8dd4d0d585
+
 Package: libgcrypt
 Architecture: aarch64
 Installed-Size: 1648
@@ -2217,6 +2342,20 @@ Size: 87730988
 MD5sum: 2e4b73fa782fe744baad79f7bee183cc
 SHA256: 00df23305ab72b6c3546719a418208f969b556b4b30e493dc96e3192d0072ec3
 
+Package: libltdl
+Architecture: aarch64
+Installed-Size: 96
+Maintainer: @termux
+Version: 2.5.4-2
+Homepage: https://www.gnu.org/software/libtool/
+Breaks: libtool (<< 2.4.7-2)
+Replaces: libtool (<< 2.4.7-2)
+Description: Library for dlopening libraries
+Filename: pool/main/l/libltdl/libltdl_2.5.4-2_aarch64.deb
+Size: 18012
+MD5sum: 52cee4ccf703e1598d8dac97f87f0413
+SHA256: 84dc426c737673f5d5911e92038bbd2d73616c325e3b232b36cddac83cd3bcfc
+
 Package: liblz4
 Architecture: aarch64
 Installed-Size: 340
@@ -2296,6 +2435,33 @@ Filename: pool/main/l/libmount/libmount_2.41.3_aarch64.deb
 Size: 152868
 MD5sum: 266b87da6ece950863e683f519fe32f9
 SHA256: 844079d04022eff6f780132dbc3e6dea1ba1ba1ef792b2ab9ac0d086f6a8155b
+
+Package: libmp3lame
+Architecture: aarch64
+Installed-Size: 348
+Maintainer: @termux
+Version: 3.100-7
+Homepage: https://lame.sourceforge.io/
+Breaks: libmp3lame-dev
+Replaces: libmp3lame-dev
+Description: High quality MPEG Audio Layer III (MP3) encoder
+Filename: pool/main/l/libmp3lame/libmp3lame_3.100-7_aarch64.deb
+Size: 114668
+MD5sum: 3e328fb1f15d43d6c21adea6bf46952f
+SHA256: f5fc14a4aae6bb62ccb2d390b97880f0fc0b9a498da555dbb8d439911e81d187
+
+Package: libmp3lame-static
+Architecture: aarch64
+Installed-Size: 428
+Maintainer: @termux
+Version: 3.100-7
+Homepage: https://lame.sourceforge.io/
+Depends: libmp3lame (= 3.100-7)
+Description: Static libraries for libmp3lame
+Filename: pool/main/l/libmp3lame-static/libmp3lame-static_3.100-7_aarch64.deb
+Size: 121280
+MD5sum: 7a2e7a6a99cd42adfcadd0796a24f87c
+SHA256: 3e25e8c95639b3c424dc740ebf5836c6f5bc5be8e732d6ae4a1120e339cdc94f
 
 Package: libmpfr
 Architecture: aarch64
@@ -2459,6 +2625,60 @@ Size: 4684
 MD5sum: 25fa5331879d75ec21e9a322bc617fa5
 SHA256: 4b16929883de55de8d5d5b56d601f4dc4cccd047e9449e881d34ebbb310f27ce
 
+Package: libogg
+Architecture: aarch64
+Installed-Size: 684
+Maintainer: @termux
+Version: 1.3.6-1
+Homepage: https://xiph.org/ogg/
+Breaks: libogg-dev
+Replaces: libogg-dev
+Description: Library for working with the Ogg multimedia container format
+Filename: pool/main/l/libogg/libogg_1.3.6-1_aarch64.deb
+Size: 188632
+MD5sum: 6ae9409c805dcf012be611de25be3a1d
+SHA256: 91aad704ba0eae7a9824d968041907be110165fb0d65bff9a3501d23c0cae3b4
+
+Package: libogg-static
+Architecture: aarch64
+Installed-Size: 64
+Maintainer: @termux
+Version: 1.3.6-1
+Homepage: https://xiph.org/ogg/
+Depends: libogg (= 1.3.6-1)
+Description: Static libraries for libogg
+Filename: pool/main/l/libogg-static/libogg-static_1.3.6-1_aarch64.deb
+Size: 16604
+MD5sum: ad0896c2ca542da036e00958330a8e00
+SHA256: e24bd8b9cb34321b7ef56115923a973fa3a451e736262581c68ac739f165611f
+
+Package: libopus
+Architecture: aarch64
+Installed-Size: 568
+Maintainer: @termux
+Version: 1.6.1
+Homepage: https://www.opus-codec.org/
+Breaks: libopus-dev
+Replaces: libopus-dev
+Description: Reference implementation of the Opus codec
+Filename: pool/main/l/libopus/libopus_1.6.1_aarch64.deb
+Size: 191752
+MD5sum: 0b9dda4cf62649353aab2f163815528c
+SHA256: 0793660eb93adfe14e55e22b6a983519d6e78c163e78da2686482e392e11e29c
+
+Package: libopus-static
+Architecture: aarch64
+Installed-Size: 684
+Maintainer: @termux
+Version: 1.6.1
+Homepage: https://www.opus-codec.org/
+Depends: libopus (= 1.6.1)
+Description: Static libraries for libopus
+Filename: pool/main/l/libopus-static/libopus-static_1.6.1_aarch64.deb
+Size: 201672
+MD5sum: 44a79d48be303157327bad55f5138cd4
+SHA256: 0c0fa236c10a6cd1b4fca15c59bb89387d8b05a1c7335d031ba0eadd8e9b1638
+
 Package: libpcreposix
 Architecture: aarch64
 Installed-Size: 36
@@ -2583,6 +2803,34 @@ Size: 100284
 MD5sum: c716e9ed940b00daaccdec090f840769
 SHA256: 63b1702e7deb49daffb88d618db3a45b3d3b99e2c4e80343bdd516be6002cf53
 
+Package: libsndfile
+Architecture: aarch64
+Installed-Size: 724
+Maintainer: @termux
+Version: 1.2.2-2
+Homepage: http://www.mega-nerd.com/libsndfile
+Breaks: libsndfile-dev
+Depends: libflac, libmp3lame, libogg, libopus, libvorbis
+Replaces: libsndfile-dev
+Description: Library for reading/writing audio files
+Filename: pool/main/l/libsndfile/libsndfile_1.2.2-2_aarch64.deb
+Size: 217672
+MD5sum: 478b600143776ea0669b6338da8dd31d
+SHA256: 06ae2269ce353767276be0772a89faf4696c729196d7d567a07f845835c4c3ba
+
+Package: libsndfile-static
+Architecture: aarch64
+Installed-Size: 876
+Maintainer: @termux
+Version: 1.2.2-2
+Homepage: http://www.mega-nerd.com/libsndfile
+Depends: libsndfile (= 1.2.2-2)
+Description: Static libraries for libsndfile
+Filename: pool/main/l/libsndfile-static/libsndfile-static_1.2.2-2_aarch64.deb
+Size: 187700
+MD5sum: 8c6739b1500176250020a1a60366e109
+SHA256: 86de6c7cc54a33832425d47589e6ea0f72ab0cfe7a9ddf3accb186a576f0203c
+
 Package: libsodium
 Architecture: aarch64
 Installed-Size: 692
@@ -2609,6 +2857,20 @@ Filename: pool/main/l/libsodium-static/libsodium-static_1.0.21_aarch64.deb
 Size: 142692
 MD5sum: 8f99f6a0bfdef0cf7e177eda13b93e35
 SHA256: c4e06a0b0d67ee8a811b631dc8cea8e7fa9d7277fab456a1912da00d258fbcfd
+
+Package: libsoxr
+Architecture: aarch64
+Installed-Size: 1100
+Maintainer: @termux
+Version: 0.1.3-8
+Homepage: https://sourceforge.net/projects/soxr/
+Breaks: libsoxr-dev
+Replaces: libsoxr-dev
+Description: High quality, one-dimensional sample-rate conversion library
+Filename: pool/main/l/libsoxr/libsoxr_0.1.3-8_aarch64.deb
+Size: 287884
+MD5sum: 04fb1686233db89d46f8555b459a2ba8
+SHA256: 8694533f55e9112a94260e8a46732cd9e47a8fdfbaf1e58dbfdd7236cb044283
 
 Package: libsqlite
 Architecture: aarch64
@@ -2758,6 +3020,21 @@ Size: 69524
 MD5sum: fb5381ddcfbe9e68a789cac5e4e31a6e
 SHA256: c344568e45d069dacf2b249c284b202f4d2542eb0d68115a1a37a37828791339
 
+Package: libtool
+Architecture: aarch64
+Installed-Size: 2788
+Maintainer: @termux
+Version: 2.5.4-2
+Homepage: https://www.gnu.org/software/libtool/
+Depends: bash, grep, sed, libltdl
+Conflicts: libtool-dev, libtool-static
+Replaces: libtool-dev, libtool-static
+Description: Generic library support script hiding the complexity of using shared libraries behind a consistent, portable interface
+Filename: pool/main/l/libtool/libtool_2.5.4-2_aarch64.deb
+Size: 391964
+MD5sum: 81c7e5a07d674c4f40f82bc42dbf34d3
+SHA256: bb1c718bcbea5ffb32da3ee2698951963ffd386d2d013c85ec59693906bd4d57
+
 Package: libunbound
 Architecture: aarch64
 Installed-Size: 1248
@@ -2883,6 +3160,34 @@ Size: 286972
 MD5sum: ed2ba0bace1df29fb8fc43f29282e404
 SHA256: c0cd3919a625d07c3ffd7053657350fbe1ee1ceea2f4f0b492a2ac60f513b1db
 
+Package: libvorbis
+Architecture: aarch64
+Installed-Size: 1764
+Maintainer: @termux
+Version: 1.3.7-4
+Homepage: https://xiph.org/vorbis/
+Breaks: libvorbis-dev
+Depends: libogg
+Replaces: libvorbis-dev
+Description: Library for using the Ogg Vorbis compressed audio format
+Filename: pool/main/l/libvorbis/libvorbis_1.3.7-4_aarch64.deb
+Size: 262988
+MD5sum: f98a20a43d882cacffa5d1693b016499
+SHA256: 601f900b59b7eddad49fcdc2c325a30c8962922a6b8ad1fe17736c5012c5ac6c
+
+Package: libvorbis-static
+Architecture: aarch64
+Installed-Size: 1020
+Maintainer: @termux
+Version: 1.3.7-4
+Homepage: https://xiph.org/vorbis/
+Depends: libvorbis (= 1.3.7-4)
+Description: Static libraries for libvorbis
+Filename: pool/main/l/libvorbis-static/libvorbis-static_1.3.7-4_aarch64.deb
+Size: 157592
+MD5sum: 1cc2122a8b2993e6ebbde296d867281a
+SHA256: 70d6bfc52d8ff30f9e1a058069484b04c49b2f9dfa71b9fb6877d743ed3dd43d
+
 Package: libwebp
 Architecture: aarch64
 Installed-Size: 1256
@@ -2897,6 +3202,19 @@ Filename: pool/main/l/libwebp/libwebp_1.6.0-1_aarch64.deb
 Size: 328172
 MD5sum: 4da9f814d44a8d71d9a8c1bb1bc2adf5
 SHA256: c04475a8a42b7e42bd15d3bdbc559adba9a734d9eac7185b2a509de48495bcc4
+
+Package: libwebrtc-audio-processing
+Architecture: aarch64
+Installed-Size: 1544
+Maintainer: @termux
+Version: 1.3-4
+Homepage: https://www.freedesktop.org/software/pulseaudio/webrtc-audio-processing/
+Depends: libc++, abseil-cpp
+Description: A library containing the AudioProcessing module from the WebRTC project
+Filename: pool/main/l/libwebrtc-audio-processing/libwebrtc-audio-processing_1.3-4_aarch64.deb
+Size: 409264
+MD5sum: 4a8b0ed08cd65575892827c9238951bb
+SHA256: 44b7fd57c543a324c54c8a8c8127c4ae16f1d28032f8d4db28e970b4f60ff8bb
 
 Package: libx11
 Architecture: aarch64
@@ -3913,6 +4231,19 @@ Size: 47272
 MD5sum: 775ab05e0cb7797974ad961799e03986
 SHA256: 252872f2dc2b8d2da3f1cb4fb61a3942b41142c57a610df56625d4d77e029679
 
+Package: pkg-config
+Architecture: aarch64
+Installed-Size: 140
+Maintainer: @termux
+Version: 0.29.2-3
+Homepage: https://www.freedesktop.org/wiki/Software/pkg-config/
+Depends: glib
+Description: Helper tool used when compiling applications and libraries
+Filename: pool/main/p/pkg-config/pkg-config_0.29.2-3_aarch64.deb
+Size: 32764
+MD5sum: a54ff12c50f32b7b1104a67b50351299
+SHA256: eaeefe38826fd3d028e5d350d2ebc3c0560fad4f29d95ca9b668a9243bd1faa9
+
 Package: procps
 Architecture: aarch64
 Installed-Size: 680
@@ -3968,6 +4299,34 @@ Filename: pool/main/p/psmisc/psmisc_23.7-1_aarch64.deb
 Size: 40944
 MD5sum: da8cd767fe7aa840ffd5920012badf4d
 SHA256: b8c70fcbf313e4aca4027cf224654f3207f5b2443a18b4bd75b064d30ecd48ad
+
+Package: pulseaudio
+Architecture: aarch64
+Installed-Size: 4020
+Maintainer: @termux
+Version: 17.0-1
+Homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
+Breaks: libpulseaudio-dev, libpulseaudio
+Depends: dbus, libandroid-execinfo, libandroid-glob, libc++, libltdl, libsndfile, libsoxr, libwebrtc-audio-processing, speexdsp
+Replaces: libpulseaudio-dev, libpulseaudio
+Description: A featureful, general-purpose sound server
+Filename: pool/main/p/pulseaudio/pulseaudio_17.0-1_aarch64.deb
+Size: 848436
+MD5sum: a557df6130ed79081ebc6d0524163913
+SHA256: 128d663038629d1e030c169485328dec572d7dcf1c13ec48dee14377b74da76f
+
+Package: pulseaudio-glib
+Architecture: aarch64
+Installed-Size: 84
+Maintainer: @termux
+Version: 17.0-1
+Homepage: https://www.freedesktop.org/wiki/Software/PulseAudio
+Depends: glib, pulseaudio (= 17.0-1)
+Description: PulseAudio GLIB mainloop component
+Filename: pool/main/p/pulseaudio-glib/pulseaudio-glib_17.0-1_aarch64.deb
+Size: 6824
+MD5sum: f92186a5169397cf5113b60c242e6f64
+SHA256: c87a9af6483509e4efb96f131e540f466132a24f8689dbd1609a4df403b02776
 
 Package: python
 Architecture: aarch64
@@ -4241,6 +4600,33 @@ Size: 39280
 MD5sum: eca52691e88e29bb7c0eeb5a5e6d0769
 SHA256: 2c7dfdb3943d889be3ec873c357ffd976501637a6c94676ca4a49cdf278d8e97
 
+Package: speexdsp
+Architecture: aarch64
+Installed-Size: 168
+Maintainer: @termux
+Version: 1.2.1-1
+Homepage: https://speex.org/
+Breaks: speexdsp-dev
+Replaces: speexdsp-dev
+Description: Speex audio processing library
+Filename: pool/main/s/speexdsp/speexdsp_1.2.1-1_aarch64.deb
+Size: 37324
+MD5sum: 5cc9cf1a44eb65cb00476e854911a3d5
+SHA256: b6f3c8cf7163fdea1319b847b5dfbe76ddeb8103deef358e3c18331dcadd241e
+
+Package: speexdsp-static
+Architecture: aarch64
+Installed-Size: 120
+Maintainer: @termux
+Version: 1.2.1-1
+Homepage: https://speex.org/
+Depends: speexdsp (= 1.2.1-1)
+Description: Static libraries for speexdsp
+Filename: pool/main/s/speexdsp-static/speexdsp-static_1.2.1-1_aarch64.deb
+Size: 32864
+MD5sum: 4da9fa4332c0adb154c59f92a2ea4361
+SHA256: 57fbad24eda49ba7bc1190255c9dfeccaac8eacca8fd9ede782a3971c3a73fe2
+
 Package: sqlite
 Architecture: aarch64
 Installed-Size: 1536
@@ -4350,6 +4736,19 @@ Size: 2261028
 MD5sum: 6896d840f7295d7f88865e88de76f18b
 SHA256: 7484bb142d7847a1a24e009950d93e4e0f3d8476e0c8e2d60bd23e5df67cae37
 
+Package: termux-am
+Architecture: all
+Installed-Size: 620
+Maintainer: Michal Bednarski @michalbednarski
+Version: 0.8.0-2
+Homepage: https://github.com/termux/TermuxAm
+Conflicts: termux-tools (<< 0.51)
+Description: Android Oreo-compatible am command reimplementation
+Filename: pool/main/t/termux-am/termux-am_0.8.0-2_all.deb
+Size: 577212
+MD5sum: d0c7ba0be49244a66c1158a672a4bdf6
+SHA256: 8d4b152df3e99ffd2ab873ef63714051f833ff151e1a2233a6f338b8c8f4fb89
+
 Package: termux-am-socket
 Architecture: aarch64
 Installed-Size: 88
@@ -4456,6 +4855,38 @@ Size: 52588
 MD5sum: a2d2b8f79a8ddc2d50714515cbf74201
 SHA256: 737bda0fa99361740101c00ace1d37878f29aa900b158dde096f97ec1deb4ddd
 
+Package: termux-tools
+Architecture: aarch64
+Installed-Size: 552
+Maintainer: @termux
+Version: 1.46.0+really1.45.0-1
+Homepage: https://termux.dev/
+Breaks: termux-keyring (<< 1.9)
+Depends: bzip2, coreutils, curl, dash, diffutils, findutils, gawk, grep, gzip, less, procps, psmisc, sed, tar, termux-am (>= 0.8.0), termux-am-socket (>= 1.5.0), termux-core, termux-exec, util-linux, xz-utils, dialog
+Essential: yes
+Conflicts: procps (<< 3.3.15-2)
+Recommends: ed, dos2unix, inetutils, net-tools, patch, unzip
+Suggests: termux-api
+Description: Basic system tools for Termux
+Filename: pool/main/t/termux-tools/termux-tools_1.46.0+really1.45.0-1_aarch64.deb
+Size: 33740
+MD5sum: 41312850dcc0d59d7defae9b8a919662
+SHA256: 526ecd7a8fbd855ccbc67647aa2094e4019fe9fb98ac89f716413c78a8506044
+
+Package: texinfo
+Architecture: aarch64
+Installed-Size: 10868
+Maintainer: @termux
+Version: 7.3
+Homepage: https://www.gnu.org/software/texinfo/
+Depends: gawk, libiconv, ncurses, perl
+Recommends: update-info-dir
+Description: Documentation system for on-line information and printed output
+Filename: pool/main/t/texinfo/texinfo_7.3_aarch64.deb
+Size: 1161492
+MD5sum: 445713e897f3505a02d4e792d3d86792
+SHA256: e0d01cdb858d49f447f9cffcdf30f13c4cf81c94024846836f8637f185848333
+
 Package: tk
 Architecture: aarch64
 Installed-Size: 5568
@@ -4532,6 +4963,19 @@ Filename: pool/main/u/unzip/unzip_6.0-10_aarch64.deb
 Size: 116424
 MD5sum: 0d59bf6e8ab595027b0868cfd586478a
 SHA256: 59fc24656224f3248a475e46ce6eae930e505067d22183135f2b74037488bd5e
+
+Package: update-info-dir
+Architecture: all
+Installed-Size: 48
+Maintainer: @termux
+Version: 7.3
+Homepage: https://www.gnu.org/software/texinfo/
+Depends: texinfo (= 7.3)
+Description: Update or create index file from all installed info files in directory
+Filename: pool/main/u/update-info-dir/update-info-dir_7.3_all.deb
+Size: 2480
+MD5sum: 880ccc2dd25d3e79dad7fb4eb74aa528
+SHA256: 1030e942cdfdcb80d9e8912124d3cecaa71c4a0f242c01250ed947678dfc1cd1
 
 Package: utf8proc
 Architecture: aarch64
